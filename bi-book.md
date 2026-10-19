@@ -47,11 +47,11 @@ The Technical Analysis of Price Action for the Serious Trader
 | 第 14 章 | 期权 |
 | 第 15 章 | 最佳交易 |
 
-书末另有作者的《交易准则》（20 条）与原书术语表，本书一并译出。
+书末另有作者的《交易准则》（39 条）与原书术语表，本书一并译出。
 
 ## 二、术语口径
 
-本书与三部曲共用同一套**四书统一术语表**（见附录 A，225 条）：
+本书与三部曲共用同一套**四书统一术语表**（见附录 A，238 条，四卷完全一致）：
 
 - 术语以「**清晰、无歧义**」为最高准则，而不是照搬任何一种既有译法；
 - 同一英文词在全书只有一个中文对应词：`signal bar` 一律「信号K线」，`spike` 一律「急速行情」，
@@ -85,6 +85,32 @@ The Technical Analysis of Price Action for the Serious Trader
 - 图上标的 `H1/L2/ii/ioi` 是作者自己的计数法：**高1/低1** 指趋势中第一次回撤后的入场点，
   **高2/低2** 指第二次；数字越大，说明多空拉锯越多。读图时对着《附录 B》看即可。
 - 本书的观点是作者的个人经验，不构成任何投资建议。
+
+## 六、四书阅读路线与跨卷形态定位
+
+四卷共用一套术语（附录 A，238 条，四卷完全一致），所以同一个形态可以跨卷对读。推荐路线：
+
+1. **先读三部曲**：《趋势篇》→《区间篇》→《反转篇》。这套 2012 年成书的体系最成熟，概念层层递进（趋势 → 区间 → 反转），术语与图注体例完全打通；
+2. **再把《逐棒读图》当高密度实战图谱集来刷**：它是三部曲的源头（2009），按「逐棒」密度讲同一批形态，适合按图刷而不是逐字读；它独有的第 10–12 章（日内交易与开盘第一小时实例）、第 14 章（期权）、第 15 章（最佳交易与 39 条交易准则）；
+3. **工具章随时插读**：《区间篇》第 17 章（数K线）与第 25 章（交易数学）是纯工具章，任何一卷读得吃力时，先补这两章收益最大。
+
+核心形态的跨卷定位（数字为章号，列出各卷命中最多的一至三章；完整表见随书交付的《四书阅读路线与核心形态跨卷索引》）：
+
+| 形态 | 趋势篇 | 区间篇 | 反转篇 | 逐棒读图 |
+|---|---|---|---|---|
+| 最终旗形 final flag | 6、21、16 | — | 7、24、4 | 9、8、11 |
+| 高潮反转 climactic reversal | 2、15、5 | 22、1、5 | 4、5、19 | 8、9 |
+| 主要趋势反转 major trend reversal | 6、16、18 | 5、14、18 | 24、3、4 | 9、13、1 |
+| 楔形 wedge | 21、6、23 | 18、17、23 | 5、24、4 | 8、9、15 |
+| 急速与通道 spike and channel | 21、22、23 | 17、12、18 | 24、4、18 | 3、8、4 |
+| 开盘即趋势 trend from the open | 23、6、22 | 15、2、17 | 18、24、19 | 11、3、15 |
+| 趋势性交易区间日 trending trading range day | 22、24、23 | 28、31、5 | 19、24、3 | 10、11、15 |
+| 始终入场 always in | 15、18、23 | 24、6、25 | 15、24、4 | 10 |
+| 均线缺口K线 moving average gap bar | 6、23、19 | 14、13、11 | 24、22、4 | 4、8、11 |
+| 数K线 bar counting | 1、4、16 | 17、22、14 | 4、24、11 | 4、1、2 |
+| 交易者等式 trader's equation | 18、16 | 25、24、30 | 24、3、25 | — |
+| 突破回调 breakout pullback | 16、6、22 | 5、17、22 | 24、18、19 | 11、6、15 |
+| 剥头皮 scalp | 18、15、6 | 24、25、22 | 24、16、9 | 10、9、1 |
 
 
 # 前言
@@ -155,7 +181,7 @@ The Technical Analysis of Price Action for the Serious Trader
 > I am not dismissing indicators and systems out of ignorance of their subtleties. I have spent over 10,000 hours writing and testing indicators and systems over the years, and that probably is far more experience than most. This extensive experience with indicators and systems was an essential part of my becoming a successful trader. Indicators work well for many traders, but the best success comes once a trader finds an approach that is compatible with his personality. My single biggest problem with indicators and systems is that I never fully trusted them. At every setup, I saw exceptions that needed to be tested. I always wanted every last penny out of the market and was never satisfied with a return from a system if I could incorporate a new twist that would make it better. I am simply too controlling, compulsive, restless, observant, and untrusting to make money long term off indicators or automated systems, but I am at the extreme in many ways, and most people don't have these same issues.
 
 
-许多交易者，尤其是初学者，会被指标吸引，指望指标告诉他们何时该入场。他们没意识到的是，绝大多数指标都建立在简单的价格行为之上；而在我下单的时候，我根本来不及思考好几个指标可能同时在告诉我的东西。另外，振荡指标往往让交易者去寻找反转，对价格图的关注就少了。在市场每天有两三次、每次持续一小时以上的反转时，这些工具可以很管用。问题出在市场强势趋势的时候。如果你太盯指标，你会看到它们整天都在形成背离，结果可能发现自己一再逆势入场、一再亏钱。等你终于接受市场正在趋势中时，当天剩下的时间已经不够你回本了。反过来说，如果你只是看着K线图或蜡烛图，你会看到市场明显在趋势中，也就不会被指标引诱去找趋势反转。最常见的成功反转，先由强动能突破一条趋势线，再回调测试极端点；而一个交易者如果太盯背离，往往就会忽略这个根本事实。没有逆势动能推动趋势线被突破，单凭背离就是一个亏钱的策略。等趋势线被突破，再看对旧极端点的测试是反转，还是原趋势恢复。在这里一次强反转是高概率交易，至少做剥头皮是如此，你并不需要指标来告诉你这一点，而且几乎肯定会有背离，那你又何必把指标加进你的推算、把思考搞复杂？
+许多交易者，尤其是初学者，会被指标吸引，指望指标告诉他们何时该入场。他们没意识到的是，绝大多数指标都建立在简单的价格行为之上；而在我下单的时候，我根本来不及思考好几个指标可能同时在告诉我的东西。另外，振荡指标往往让交易者去寻找反转，对价格图的关注就少了。在市场每天有两三次、每次持续一小时以上的反转时，这些工具可以很管用。问题出在市场强趋势的时候。如果你太盯指标，你会看到它们整天都在形成背离，结果可能发现自己一再逆势入场、一再亏钱。等你终于接受市场正在趋势中时，当天剩下的时间已经不够你回本了。反过来说，如果你只是看着K线图或蜡烛图，你会看到市场明显在趋势中，也就不会被指标引诱去找趋势反转。最常见的成功反转，先由强动能突破一条趋势线，再回调测试极端点；而一个交易者如果太盯背离，往往就会忽略这个根本事实。没有逆势动能推动趋势线被突破，单凭背离就是一个亏钱的策略。等趋势线被突破，再看对旧极端点的测试是反转，还是原趋势恢复。在这里一次强反转是高概率交易，至少做剥头皮是如此，你并不需要指标来告诉你这一点，而且几乎肯定会有背离，那你又何必把指标加进你的推算、把思考搞复杂？
 
 
 > Many traders, especially beginners, are drawn to indicators, hoping that an indicator will show them when to enter a trade. What they don't realize is that the vast majority of indicators are based on simple price action, and when I am placing trades, I simply cannot think fast enough to process what several indicators might be telling me. Also, oscillators tend to make traders look for reversals and focus less on price charts. These can be effective tools on most days when the market has two or three reversals lasting an hour or more. The problem comes when the market is trending strongly. If you focus too much on your indicators, you will see that they are forming divergences all day long, and you may find yourself repeatedly entering Countertrend and losing money. By the time you come to accept that the market is trending, you will not have enough time left in the day to recoup your losses. Instead, if you were simply looking at a bar or candle chart, you would see that the market is clearly trending, and you would not be tempted by indicators to look for trend reversals. The most common successful reversals first break a trendline with strong momentum and then pullback to test the extreme, and if a trader focuses too much on divergences, she will often overlook this fundamental fact. A divergence in the absence of a Countertrend momentum surge that breaks a trendline is a losing strategy. Wait for the trendline break, and then see if the test of the old extreme reverses or if the old trend resumes. You do not need an indicator to tell you that a strong reversal here is a high-probability trade, at least for a scalp, and there will almost certainly be a divergence, so why complicate your thinking by adding the indicator to your calculus?
@@ -436,7 +462,7 @@ The Technical Analysis of Price Action for the Serious Trader
 > If there is a body, then the close trended away from the open, and the bar is a trend bar. Obviously, if the bar is large and the body is small, there was not much trending strength. Also, within the bar (as seen on a smaller time frame), there may have been several swings of largely sideways movement, but this is irrelevant because you should focus on only one chart. Larger bodies in general indicate more strength, but an extremely large body after a protracted move or a breakout can represent an exhaustive end of a trend, and no trade should be taken until more price action unfolds. A series of strong trend bars is the sign of a healthy trend and will usually be followed by a further extreme, even if a pullback immediately ensues.
 
 
-理想的趋势K线，实体大小适中，说明到K线收盘时，市场已经相对这根K线的开盘价走出了趋势。最低的要求是：多头趋势K线的收盘价高于开盘价，本书中用白色蜡烛线实体表示。多头可以展示出更强的掌控力的方式，是让实体大约等于甚至大于过去5根或10根K线实体尺寸的中位数。其他强势迹象还包括：开盘价就在低点或接近低点，收盘价在高点或接近高点，收盘价位于此前几根K线的收盘价和高点之上或与之持平，高点高于此前一根或多根K线的高点，以及影线很短。如果这根K线非常大，它可能代表衰竭，或者一次单根K线的假突破——它把新进的多头套住，然后就在接下来的一两根K线里反转下跌。空头趋势K线则相反。
+理想的趋势K线，实体大小适中，说明到K线收盘时，市场已经相对这根K线的开盘价走出了趋势。最低的要求是：多头趋势K线的收盘价高于开盘价，本书中用白色蜡烛线实体表示。多头可以展示出更强的掌控力的方式，是让实体大约等于甚至大于过去5根或10根K线实体尺寸的中位数。其他强势特征还包括：开盘价就在低点或接近低点，收盘价在高点或接近高点，收盘价位于此前几根K线的收盘价和高点之上或与之持平，高点高于此前一根或多根K线的高点，以及影线很短。如果这根K线非常大，它可能代表衰竭，或者一次单根K线的假突破——它把新进的多头套住，然后就在接下来的一两根K线里反转下跌。空头趋势K线则相反。
 
 
 > An ideal trend bar is one with a moderate-size body, indicating that the market trended away from the open of the bar by the time the bar closed. The minimum is a close above the open in a bull trend bar, indicated by a white candle body in this book. The bulls can demonstrate stronger control by having the body be about the size or larger than that of the median body size over the past 5 or 10 bars. Additional signs of strength include the open being on or near the low, the close on or near the high, the close at or above the closes and highs of several prior bars, the high above the high of one or more prior bars, and the tails being small. If the bar is very large, it might represent exhaustion or a one bar false breakout that is trapping new bulls, only to reverse down in the next bar or two. The opposite is true for bear trend bars.
@@ -1222,7 +1248,7 @@ AAPL在这张5分钟图（图 1.18）上展示了多种常见的信号K线。第
 > Bar 4 was a doji bar after two other dojis, and a bar with a tiny body is not a good setup bar when the lows, highs, and closes are trending up. The needed second entry setup carne two bars later, completing the Lower . High that followed a trendline break.
 
 
-第5根K线是 ii形态顶部一个 tick（最小报价单位）的失败突破，构成了最终旗形失败，随后被第6根K线的反转K线反转。它还反转了一次跌向当日新低的突破，并与第1根K线一起构成双底牛旗，而且它是一次五个 tick 的失败突破。
+第5根K线是 ii形态顶部一个 tick（最小报价单位）的突破失败，构成了最终旗形失败，随后被第6根K线的反转K线反转。它还反转了一次跌向当日新低的突破，并与第1根K线一起构成双底牛旗，而且它是一次五个 tick 的突破失败。
 
 
 > Bar 5 is a one tick failed breakout of the top of an ii, setting up a Failed Final Flag, which was reversed by the Bar 6 reversal bar. This also reversed a breakout to a new low of the day, and formed a Double Bottom Bull Flag with Bar 1, and it was a Five Tick Failed Breakout.
@@ -1701,7 +1727,7 @@ AAPL在这张5分钟图（图 1.18）上展示了多种常见的信号K线。第
 > In actual practice, when you see a possible trendline and you are not certain how far it is from the current bar, draw it to see if the market has hit it and then quickly erase the line. You don't want lines on your chart for more than a few seconds when trading because you don't want distractions. You need to focus on the bars and see how they behave once near the line, and not focus on the line.
 
 
-随着趋势推进，逆势运动会突破趋势线，而这些突破通常都会失败，从而形成顺势入场的建仓形态。每一次突破的失败，都会成为新的一条更长、坡度更平缓的趋势线的第二个点。最终，失败的突破本身也失败，形成突破回调，而这些回调让人可以画出反方向的趋势线。主要趋势线被突破之后，反方向的趋势线变得更重要，而到那时，趋势很可能已经反转了。
+随着趋势推进，逆势运动会突破趋势线，而这些突破通常都会失败，从而形成顺势入场的建仓形态。每一次突破的失败，都会成为新的一条更长、坡度更平缓的趋势线的第二个点。最终，突破失败本身也失败，形成突破回调，而这些回调让人可以画出反方向的趋势线。主要趋势线被突破之后，反方向的趋势线变得更重要，而到那时，趋势很可能已经反转了。
 
 
 > As a trend progresses, Countertrend moves break the trendlines, and usually the breakouts fail, setting up With Trend entries. Each breakout failure becomes the second point for the creation of a new, longer trendline with a shallower slope. Eventually failed breakouts fail, creating Breakout Pullbacks, and these allow for the drawing of trendlines in the opposite direction. After the major trendline is broken, the trendlines in the opposite direction become more important, and at that point the trend has likely reversed.
@@ -1857,7 +1883,7 @@ AAPL在这张5分钟图（图 1.18）上展示了多种常见的信号K线。第
 **图 2.7　强趋势中的微型趋势线**
 
 
-强趋势中的小趋势线，即使是用相邻K线画出的，也常常出现失败测试（失败的突破），形成很好的顺势入场。其中许多都是1分钟图上的高2/低2建仓形态，但当你在5分钟图上看到这些假突破时，并不需要再去看1分钟图，如图 2.7所示。
+强趋势中的小趋势线，即使是用相邻K线画出的，也常常出现失败测试（突破失败），形成很好的顺势入场。其中许多都是1分钟图上的高2/低2建仓形态，但当你在5分钟图上看到这些假突破时，并不需要再去看1分钟图，如图 2.7所示。
 
 
 > Small trendlines in strong trends, even when drawn using adjacent bars, often have failure tests (failed breakouts) that set up good With Trend entries. Many of these are High/Low 2 setups on 1-minute charts, but you don't need to look at the 1-minute when you see the false breakouts on the 5-minute chart, as seen in Figure 2.7.
@@ -2198,7 +2224,7 @@ AAPL在这张5分钟图（图 1.18）上展示了多种常见的信号K线。第
 > Within any trend, there are a number of smaller opposite trends, some lasting for only one or two bars, and all of them should be considered as likely to fail and therefore setups for trades in the direction of the larger trend. In a bull, the swings should be trending upward, meaning that each pullback should be above the prior pullback, and it should result in a new high (trending highs and lows, or trending swings). All moves with strong momentum usually have at least a test of the extreme following a pullback (all strong moves usually have at least two legs, even if the second one falls short and reverses).
 
 
-所有趋势，无论多小，都必须先突破前一段趋势或交易区间画出的趋势线，然后走出依次推进的波段（比如多头行情里一连串更高的高点和更低的低点）。这两条缺了任何一条，就谈不上趋势。最好的风险回报比出现在趋势线突破之后的第一波回调上——那时趋势还没有明确确立。当一个可能的趋势日正在展开时，交易者应当寻找强势迹象，每一个强势迹象都会提高趋势延续的概率。
+所有趋势，无论多小，都必须先突破前一段趋势或交易区间画出的趋势线，然后走出依次推进的波段（比如多头行情里一连串更高的高点和更低的低点）。这两条缺了任何一条，就谈不上趋势。最好的风险回报比出现在趋势线突破之后的第一波回调上——那时趋势还没有明确确立。当一个可能的趋势日正在展开时，交易者应当寻找强势特征，每一个强势特征都会提高趋势延续的概率。
 
 
 > All trends, no matter how small, must first break a trendline from the prior trend or trading range and then have trending swings (such as a series of Higher Highs and Lows in a bull). Absent either of these, there is no trend. The best risk reward ratio occurs when you enter on the First Pullback after a trendline break, before there is a clearly established trend. As a possible trend day is unfolding, traders should look for signs of strength, each of which increases the odds that the trend will continue.
@@ -2354,7 +2380,7 @@ AAPL在这张5分钟图（图 1.18）上展示了多种常见的信号K线。第
 > - Bars with no tails or small tails in either direction. With a trend in runaway mode, there will likely be no pullbacks for many bars, and the bars will be good-size trend bars with mostly small tails. Since you want to keep scalping more as the trend continues while still holding onto the swing portion of your position, consider looking at the 3-minute chart. It often has more pause bars (Countertrend inside bars and one-bar pullbacks) that allow for With Trend entries. The 1-minute chart also has With Trend entries, but it also has some countertrend setups, which can be confusing when you are trying to only trade With Trend. This, along with the speed of the reading required, can create too much stress during a runaway trend and can interfere with your ability to trade effectively. Since you need to be making sure that you catch every With Trend entry, it is best to trade only off the 3- or 5-minute charts in a runaway trend.
 
 
-图 3.2里的5分钟 Emini 图向上跳空11点，这是很大的缺口，第一根K线是一根多头趋势K线。没有早早被回补的大缺口，通常标志当天强趋势的开始，而当天往往会在最高点附近或就在最高点收盘（空头行情里则是最低点）。另外，市场超过两个小时没有测试均线，形成2HM（两小时未触均线）形态，这是又一个强势迹象。注意这里没有多少情绪化行为（大K线、高潮、大波段）。安静的市场、大量的小K线，其中许多是十字星，往往带来最大的趋势。
+图 3.2里的5分钟 Emini 图向上跳空11点，这是很大的缺口，第一根K线是一根多头趋势K线。没有早早被回补的大缺口，通常标志当天强趋势的开始，而当天往往会在最高点附近或就在最高点收盘（空头行情里则是最低点）。另外，市场超过两个小时没有测试均线，形成2HM（两小时未触均线）形态，这是又一个强势特征。注意这里没有多少情绪化行为（大K线、高潮、大波段）。安静的市场、大量的小K线，其中许多是十字星，往往带来最大的趋势。
 
 
 > The 5-minute Emini in Figure 3.2 gapped up 11 points, which is huge, and the first bar was a bull trend bar. Large gaps that don't reverse early usually mark the start of a strong trend for the day and the day often closes at or near the high (or low, in a bear). Also, the market did not test the EMA for over two hours (a 2HM pattern), another sign of strength. Notice how there was not much emotional behavior (big bars, climaxes, big swings). Quiet markets with lots of small bars, many of which are dojis, often lead to the biggest trends.
@@ -2369,7 +2395,7 @@ AAPL在这张5分钟图（图 1.18）上展示了多种常见的信号K线。第
 ![图 3.2](figures/fig-03-02.png)
 
 
-**图 3.2　强多头趋势中的强势迹象**
+**图 3.2　强多头趋势中的强势特征**
 
 
 市场向第3根K线走出了一小段两段式下跌。第一段由一根空头趋势K线和两根十字星组成；第二段则由一根带较长上影线的空头趋势K线（那根上影线就是结束第一段下跌的那次回调）加一根十字星组成。这是一次两段式行情的变体，在更小时间级别的图上必定会有清晰的两段下跌，构成一个高2（变体）。在第3根K线之上一个最小报价单位处买入。它同时也是对缺口的测试，形成双底牛旗（开盘缺口就是旗杆）。既然这可能是一个趋势日、因而可能走得比大多数交易者想象得远得多，聪明的交易者会用一部分或全部仓位做波段。
@@ -2432,7 +2458,7 @@ AAPL在这张5分钟图（图 1.18）上展示了多种常见的信号K线。第
 > There was also a failed Wedge top (it broke down for only a single bar) at Bar 16, setting up a long above the Bar 17 failure.
 
 
-第18根K线突破了多头趋势通道线，给出了低2做空信号。然而，在一个强势趋势日里，聪明的空头只有在先前先出现一段跌破趋势线的强劲空头行情时才会做空。否则，他们会把所有做空建仓形态都看成做多的建仓形态。他们会把做多订单正好下在那些弱空头不得不回补的位置（比如第17根K线和第19根K线的高点之上一个最小报价单位处）。
+第18根K线突破了多头趋势通道线，给出了低2做空信号。然而，在一个强趋势日里，聪明的空头只有在先前先出现一段跌破趋势线的强劲空头行情时才会做空。否则，他们会把所有做空建仓形态都看成做多的建仓形态。他们会把做多订单正好下在那些弱空头不得不回补的位置（比如第17根K线和第19根K线的高点之上一个最小报价单位处）。
 
 
 > Bar 18 broke above a bull trend channel line and gave a Low 2 short signal. However, on a strong trend day, smart bears will only short if there is first a strong bear leg that broke a trendline. Otherwise, they will view all short setups as buy setups. They will place orders to go long exactly where the weak shorts will have to cover (such as one tick above the highs of Bars 17 and 19).
@@ -2774,7 +2800,7 @@ IBM 在图 3.15中出现了好几个急速与通道交易日；既然通道的�
 **图 3.15　多个急速与通道交易日**
 
 
-有时跳空缺口本身就可以充当急速行情，形成跳空急速与通道交易日。图 3.16中第2根K线处的通道起点在第二天被测试（第4根K线）。从第1根和第2根K线延伸出来的那段多头旗形最终引出了通道突破，它的作用就像一次最终旗形失败，只是突破的过程拖得更长。有时这种失败会带出一次主要趋势反转。
+有时跳空缺口本身就可以充当急速行情，形成跳空急速与通道交易日。图 3.16中第2根K线处的通道起点在第二天被测试（第4根K线）。从第1根和第2根K线延伸出来的那段牛旗最终引出了通道突破，它的作用就像一次最终旗形失败，只是突破的过程拖得更长。有时这种失败会带出一次主要趋势反转。
 
 
 > Sometimes a gap can be the spike, forming a Gap Spike and Channel day. The Bar 2 in Figure 3. 16 start of the channel was tested on the next day (Bar 4). The bull flag from Bars 1 and 2 that led to the channel breakout functions like a Failed Final Flag but with a protracted breakout. Sometimes the failure leads to a major trend reversal.
@@ -2831,7 +2857,7 @@ IBM 在图 3.15中出现了好几个急速与通道交易日；既然通道的�
 ![图 3.19](figures/fig-03-19.png)
 
 
-**图 3.19　多头趋势楼梯形态日里的收缩型楼梯**
+**图 3.19　多头趋势楼梯形态交易日里的收缩型楼梯**
 
 
 图 3.19画的是一段多头趋势楼梯形态，通道大致画出，里面包含三个或更多呈趋势排列的更高的高点和更高的低点。第4、6、8根K线构成了收缩型楼梯，代表多头动能正在减弱，并预示了这次反转。
@@ -3223,7 +3249,7 @@ RIMM 在图 4.10中一直到当天开盘后三个半小时才在第5根K线处�
 **图 4.12　11:30 PST 陷阱**
 
 
-在一个空头式的开盘即趋势交易日、随后又无力站上均线之后，交易者都在预期一次上午11:30（太平洋时间）的陷阱，今天它准时出现了。图 4.12中的第3根K线也是空头里的第一根均线缺口K线。通常这个陷阱是一段强逆势行情，让满怀希望的多头大举买入，结果市场迅速反转跌回去，迫使他们平仓。不过今天，从第2根K线起的上涨行情由大十字星构成，看上去是铁丝网的样子，说明交易者对上下两个方向都紧张。如果没有信念，交易者怎么会被套住呢？嗯，第3根K线前的那根K线试图形成一个双顶熊旗，而第3根K线升到第1根K线高点之上，把这个形态破坏了。这使很多交易者放弃看空，逼得空头平仓。所以与其说是把多头诱进交易，不如说是把空头困在场外，但这仍然是一个陷阱，因此空头这一侧仍然有燃料。那些空头全都想重新进场，他们帮着把市场推了下去。第3根K线往下那一段行情很弱，这与第2根K线往上那一段行情很弱是一致的，但结果和预期的一样……收在当天低点。这是一个趋势恢复式的空头交易日，但由于恢复开始得太晚，走出的行情段比开盘时的抛售更小。趋势往往有两段行情。如果在反转之后，第一段行情（逆势方，因为新趋势尚未确认）的动能很强，多空双方都会怀疑它会不会是可能出现的许多段行情中的第一段，从而形成一段新趋势。正因如此，多空双方都会预期对原趋势极值的测试会失败，而顺势（顺着原趋势）交易者会迅速离场。举例来说，如果在一段持续很久的空头之后出现一段强劲上涨，这段上涨升到均线之上、也升破了空头最后一个更低的高点，并且这段上涨里有很多多头趋势K线，那么多空双方都会认为会有一低点被测试，而且测试的低点会守在空头低点之上。一旦这第一段上涨的动能减弱，多头就会部分或全部止盈，空头则会做空，以防空头能维持对市场的控制。空头不确定自己的趋势是否已经结束，因此愿意建立新的空头仓位。市场会往下走，因为在出现更多看涨的价格行为之前，买方不愿买入。当多头在测试低点的回调中重新进场时，新进场的空头会迅速离场，因为他们不想在这笔交易上亏钱。空头回补自己的空头仓位，会为向上的推力再添一把力。市场随后会形成一个更高的低点。除非这一段行情在第一段上涨的顶部附近走弱（可能形成双顶熊旗），否则空头不会再考虑做空。如果确实走弱了，新进场的多头会因为不想亏损而迅速离场，空头则会变得更激进，因为他们感觉到这第二段上涨已经失败。最终会有一方胜出。不过，这种交易在所有的市场里整天都在上演，制造出大量两段式的行情。
+在一个空头式的开盘即趋势日、随后又无力站上均线之后，交易者都在预期一次上午11:30（太平洋时间）的陷阱，今天它准时出现了。图 4.12中的第3根K线也是空头里的第一根均线缺口K线。通常这个陷阱是一段强逆势行情，让满怀希望的多头大举买入，结果市场迅速反转跌回去，迫使他们平仓。不过今天，从第2根K线起的上涨行情由大十字星构成，看上去是铁丝网的样子，说明交易者对上下两个方向都紧张。如果没有信念，交易者怎么会被套住呢？嗯，第3根K线前的那根K线试图形成一个双顶熊旗，而第3根K线升到第1根K线高点之上，把这个形态破坏了。这使很多交易者放弃看空，逼得空头平仓。所以与其说是把多头诱进交易，不如说是把空头困在场外，但这仍然是一个陷阱，因此空头这一侧仍然有燃料。那些空头全都想重新进场，他们帮着把市场推了下去。第3根K线往下那一段行情很弱，这与第2根K线往上那一段行情很弱是一致的，但结果和预期的一样……收在当天低点。这是一个趋势恢复式的空头交易日，但由于恢复开始得太晚，走出的行情段比开盘时的抛售更小。趋势往往有两段行情。如果在反转之后，第一段行情（逆势方，因为新趋势尚未确认）的动能很强，多空双方都会怀疑它会不会是可能出现的许多段行情中的第一段，从而形成一段新趋势。正因如此，多空双方都会预期对原趋势极值的测试会失败，而顺势（顺着原趋势）交易者会迅速离场。举例来说，如果在一段持续很久的空头之后出现一段强劲上涨，这段上涨升到均线之上、也升破了空头最后一个更低的高点，并且这段上涨里有很多多头趋势K线，那么多空双方都会认为会有一低点被测试，而且测试的低点会守在空头低点之上。一旦这第一段上涨的动能减弱，多头就会部分或全部止盈，空头则会做空，以防空头能维持对市场的控制。空头不确定自己的趋势是否已经结束，因此愿意建立新的空头仓位。市场会往下走，因为在出现更多看涨的价格行为之前，买方不愿买入。当多头在测试低点的回调中重新进场时，新进场的空头会迅速离场，因为他们不想在这笔交易上亏钱。空头回补自己的空头仓位，会为向上的推力再添一把力。市场随后会形成一个更高的低点。除非这一段行情在第一段上涨的顶部附近走弱（可能形成双顶熊旗），否则空头不会再考虑做空。如果确实走弱了，新进场的多头会因为不想亏损而迅速离场，空头则会变得更激进，因为他们感觉到这第二段上涨已经失败。最终会有一方胜出。不过，这种交易在所有的市场里整天都在上演，制造出大量两段式的行情。
 
 
 > On a bear Trend from the Open day followed by an inability to get above the EMA, traders were expecting an 11:30 A.M. PST trap, and it occurred today exactly on time. Bar 3 in Figure 4.12 was also the first EMA Gap Bar in a bear. Usually the trap is a strong Countertrend leg, getting hopeful longs to buy aggressively only to get forced into liquidation as the market quickly reverses back down. Today, however, the rally from Bar 2 was composed of large dojis and had a Barb Wire look, indicating that traders were nervous in both directions. If there was no conviction, then how could traders get trapped? Well, the bar before Bar 3 attempted to form a Double Top Bear Flag, and Bar 3 spoiled it by going above the Bar 1 high. This made many traders give up on the bear case, forcing the shorts to liquidate. So it was not so much trapping the bulls into the trade as it was trapping the bears out, but it is still a trap, and therefore there still was fuel for the short side. Those shorts all wanted back in, and they helped push the market down. The weakness of the down leg from Bar 3 is consistent with the weakness of the up leg from Bar 2, but the result was as expected . . . a close on the low of the day. This was a bear Trend Resumption day, but since the resumption started so late, it resulted in a smaller leg than the selloff at the open. Trends often have two legs. If the momentum on the first leg (Countertrend, since the new trend is not yet confirmed) after the reversal is strong, both the bulls and bears will wonder if it will be the first of possibly many legs, creating a new trend. Because of this, both bulls and bears will expect that a test of the old trend's extreme will fail and the With Trend (with the old trend) traders will be quick to exit. For example, if there is a strong move up after a protracted bear and the up move goes above the EMA and above the last lower high of the bear, and there were many bull trend bars in this up move, both bulls and bears will assume that there will be a test of the low that will hold above the bear low. Once the momentum of this first up leg wanes, bulls will take partial or full profits, and bears will short, just in case the bears are able to maintain control of the market. The bears are not certain if their trend is over and will be willing to initiate new short positions. The market will work down since buyers will be reluctant to buy until there is more bullish price action. As bulls come back in on the pullback that is testing the low, the new bears will be quick to exit because they don't want to take a loss on the trade. The buying by the bears covering their shorts will add to the upward pressure. The market will then form a Higher Low. The bears will not consider shorting again unless this leg falters near the top of the first up leg (a possible Double Top Bear Flag). If it does, the new bulls will be quick to exit because they won't want a loss, and the bears will become more aggressive since they will sense that this second leg up has failed. Eventually, one side will win out. However, this kind of trading goes on all day long in all markets and creates a lot of two-legged moves.
@@ -3583,7 +3609,7 @@ AAPL 在5分钟图上是一只走势很规矩的股票。它在第2根K线处形
 > Note that Bar 7 on the Emini was a High 4, which is usually a reliable buy signal. However, in the absence of any bullish strength in the High 1, 2, or 3, you cannot take the trade. A bar count alone is not sufficient. You need prior strength in the form of relatively strong move that broke at least a minor trendline.
 
 
-注意，早些时候出现了一段强劲的多头行情，在市场突破那条多头趋势线之前，低2做空都是糟糕的交易。当时并没有一波强劲的下跌冲击，但市场横盘了大约10根K线，说明空头强到足以在相当长的一段时间里把多头挡在外面。交易者要有信心去做空那次冲向第3根K线当日新高的最终旗形失败突破，空头这种力量的展示是必不可少的。
+注意，早些时候出现了一段强劲的多头行情，在市场突破那条多头趋势线之前，低2做空都是糟糕的交易。当时并没有一波强劲的下跌冲击，但市场横盘了大约10根K线，说明空头强到足以在相当长的一段时间里把多头挡在外面。交易者要有信心去做空那次冲向第3根K线当日新高的最终旗形突破失败，空头这种力量的展示是必不可少的。
 
 
 > Notice that earlier there was a strong bull and that Low 2 shorts were bad trades until after the market broke the bull trendline. There was not a strong down surge, but the market went sideways for about 10 bars, indicating that the bears were strong enough to hold the bulls at bay for a protracted period. This show of strength by the bears was necessary for a trader to feel confident to short the Failed Final Flag breakout to the Bar 3 new high of the day.
@@ -3769,13 +3795,13 @@ AAPL 在5分钟图上是一只走势很规矩的股票。它在第2根K线处形
 > This three swing pullback in Figure 4.27 in the QQQQ (a bear trend, followed by a Three Push rally, and then a test of the bear's low) unfolded over three days. Even though the upward momentum was good, it was actually minor compared to the size of the prior bear trend, whose low almost certainly would be tested. The test of the low occurred on the open of the third day.
 
 
-图 4.28中 AAPL 的大幅向上跳空实际上就是一段陡直的多头行情段（一次多头急速行情）。它之后是三次回调，其中第三次是一个失败波段（它没能走到前一个低点下方）。由于这个形态常常出现在趋势的中部，交易者应该把从第3根K线入场起的一部分或全部多头持仓做波段，预期大约走出一段向上的等距运动。这是一个趋势恢复日的变体，只不过这里第一段多头行情段就是跳空开盘。可以说，失败的第三次推进也是一个头肩形态牛旗。
+图 4.28中 AAPL 的大幅向上跳空实际上就是一段陡直的多头行情段（一次多头急速行情）。它之后是三次回调，其中第三次是一个失败波段（它没能走到前一个低点下方）。由于这个形态常常出现在趋势的中部，交易者应该把从第3根K线入场起的一部分或全部多头持仓做波段，预期大约走出一段向上的等距运动。这是一个趋势恢复交易日的变体，只不过这里第一段多头行情段就是跳空开盘。可以说，失败的第三次推进也是一个头肩形态牛旗。
 
 
 > The large gap up in AAPL in Figure 4.28 effectively is a steep bull leg (a bull spike). This was followed by three pullbacks, the third of which was a failure swing (it failed to go below the prior low). Since this pattern is often in the middle of a trend, traders should swing part or all of their longs from the Bar 3 entry, expecting approximately a Measured Move up. This is a variant of a Trend Resumption Day where here the first bull leg was the gap opening. Arguably, a failed third push is also a Head and Shoulders bull flag.
 
 
-图 4.29中 LEH 在第1根K线处走出了一个巨大的反转日。第8根K线是一段楔形回调（第4、6或7、8根K线）以及一个小型三次推进形态（第6、7、8根K线）的终点。它还与第2根K线构成双顶熊旗（第8根K线高出24美分，但在日线图上已经足够接近）。
+图 4.29中 LEH 在第1根K线处走出了一个巨大的反转交易日。第8根K线是一段楔形回调（第4、6或7、8根K线）以及一个小型三次推进形态（第6、7、8根K线）的终点。它还与第2根K线构成双顶熊旗（第8根K线高出24美分，但在日线图上已经足够接近）。
 
 
 > LEH had a huge reversal day at Bar 1 in Figure 4.29. Bar 8 was the end of a Wedge pullback (Bars 4, 6 or 7, and 8) and of a small Three Push pattern (Bars 6, 7, and 8). It was also a Double Top Bear Flag with Bar 2 (Bar 8 was 24 cents higher, but close enough on a daily chart).
@@ -4116,7 +4142,7 @@ LLY 在图 5.11中的日线图显示出一段急速上涨，它结束于第2根K
 > The daily chart of VPHM in Figure 5.12 had a strong breakout after the Bar 1 low, presumably based on a news event. At some point, the momentum traders controlled the market and drove it much higher than the fundamentals warranted. There was then a sharp move down to Bar 9, where there was a Three Push pattern (a Wedge variant) that resulted in the up move to Bar 13, effectively creating a large trading range.
 
 
-第10根K线是一次突破回调的更高的低点，是做多的第二次机会。在众多动能玩家于第4根K线趋势线突破之后的上涨行情里抛掉多单之后，多头得以把市场推到第5根K线的新高，但这遇到了激进的卖方，他们一路把市场压到第6根K线的低点，跌破了主要的多头趋势线，从而形成了从第7根K线的更低高点回测第5根K线趋势高点之后的一次大幅反转下跌。这次反转向下是从到第7根K线为止的三次向上推进开始的。到这时，动能玩家已经离场，去找别的股票了。
+第10根K线是一次突破回调的更高的低点，是做多的第二次机会。在众多动能玩家于第4根K线趋势线突破之后的上涨行情里抛掉多单之后，多头得以把市场推到第5根K线的新高，但这遇到了激进的卖方，他们一路把市场压到第6根K线的低点，跌破了主要的多头趋势线，从而形成了从第7根K线的更低的高点回测第5根K线趋势高点之后的一次大幅反转下跌。这次反转向下是从到第7根K线为止的三次向上推进开始的。到这时，动能玩家已经离场，去找别的股票了。
 
 
 > Bar 10 was a Breakout Pullback Higher Low second chance to get long. After many momentum players dumped their longs on the rally up from the Bar 4 trendline break, the bulls were able to drive the market to a new high at Bar 5, but this found aggressive sellers who were able to break the major bull trendline as they pushed the market down to the Bar 6 low, setting up a large reversal down from the Bar 7 Lower High test of the Bar 5 trend high. The reversal down came off of the Three Pushes Up to Bar 7. At this point, the momentum players were out and looking for another stock.
@@ -4211,7 +4237,7 @@ FOMC（联邦公开市场委员会）报告在 PST 上午11:15发布，图 5.14�
 > Breakout is simply a move beyond some prior point of significance such as a trendline or a prior high or low, including the high or low of the previous bar. To a trader, it implies strength and a possible new trend. For example, if a bull breakout bar has a strong close and the next several bars also have strong closes and trending highs and lows (no bar pullbacks), then the market will likely be higher than it is at the current moment at some point before the market reverses back beyond the start of the breakout move.
 
 
-突破的对象可以是任何东西，比如一条趋势线、一个交易区间，或者今天或昨天的最高价、最低价。这并不重要，因为它们的做法都一样。如果突破失败就反向操作——大多数突破都会失败——而如果失败的突破又失败、从而变成一次突破回调（Breakout Pullback），就按突破的方向重新入场。只有极少情况下才最适合在突破时入场，等失败或者等突破回调几乎总是更好。在大多数交易日里，交易者都把新的摆动高点和低点看作潜在的反向操作建仓形态。不过，在一个强趋势日里，突破通常伴随巨量，而且即使在1分钟图上回调也极小。趋势交易者掌控局面这一点很清楚。趋势强到那个程度时，价格行为交易者会在突破之前和之后、在做多方向的高1/低1或高2/低2回调入场，通常不会在突破时入场。她始终在设法把交易的风险降到最低。不过，一旦你确认强趋势正在展开，以任何理由顺势入场都是一笔好交易。在强趋势里，每一个最小报价单位都是顺势入场，所以你只要用你的波段仓位规模在任何位置以市价入场，再用一个合理的波段止损即可。
+突破的对象可以是任何东西，比如一条趋势线、一个交易区间，或者今天或昨天的最高价、最低价。这并不重要，因为它们的做法都一样。如果突破失败就反向操作——大多数突破都会失败——而如果突破失败又失败、从而变成一次突破回调（Breakout Pullback），就按突破的方向重新入场。只有极少情况下才最适合在突破时入场，等失败或者等突破回调几乎总是更好。在大多数交易日里，交易者都把新的摆动高点和低点看作潜在的反向操作建仓形态。不过，在一个强趋势日里，突破通常伴随巨量，而且即使在1分钟图上回调也极小。趋势交易者掌控局面这一点很清楚。趋势强到那个程度时，价格行为交易者会在突破之前和之后、在做多方向的高1/低1或高2/低2回调入场，通常不会在突破时入场。她始终在设法把交易的风险降到最低。不过，一旦你确认强趋势正在展开，以任何理由顺势入场都是一笔好交易。在强趋势里，每一个最小报价单位都是顺势入场，所以你只要用你的波段仓位规模在任何位置以市价入场，再用一个合理的波段止损即可。
 
 
 > The breakout can be of anything, such as a trendline, a trading range, or the high or low of the day or yesterday. It does not matter because they are all traded the same. Fade it if it fails, as most breakouts do, and re-enter in the direction of the breakout if the failed breakout fails and therefore becomes a Breakout Pullback. Only rarely is it best to enter on the breakout and it is almost always better to wait for a failure or a Breakout Pullback. On most days, traders look at new swing highs and lows as possible fade setups. On a strong trend day, however, the breakouts are usually on huge volume, and there is very little pullback even on a 1-minute chart. It is clear that the trend traders are in control. When a trend is that strong, a price action trader will be entering With Trend on a High/Low 1 or 2 pullback before and after the breakout and usually not on the breakout. She is always trying to minimize the risk of the trade. However, once you recognize that a strong trend is underway, entering With Trend for any reason is a good trade. In a strong trend, every tick is a With Trend entry, so you can simply enter at the market at any point using your swing size and use a reasonable swing stop.
@@ -4289,7 +4315,7 @@ FOMC（联邦公开市场委员会）报告在 PST 上午11:15发布，图 5.14�
 > Bar 9 is an inside bar after the first close below the EMA, so a test of the high is the minimum target. After a breakout, eventually there will be a pullback. If the Breakout PUllback comes back to within a few ticks of the entry price, it is a Breakout Test. The test can occur on the bar after the breakout or even 20 or more bars later, or both. This test bar is a potential signal bar, and look to place an entry order at one tick beyond it, in case the test is successful and the trend resumes. It is a particularly reliable Breakout Pullback setup.
 
 
-如果突破后一两根K线内就出现回调，这次突破已经失败。不过，即使是最强的突破也会有一到两根K线的失败，而那实际上只是变成了突破回调，而不是反转。一旦趋势恢复，这次失败的突破就失败了——所有突破回调都是这种情况。由于它们是失败后的失败，它们就是二次入场，因此有很大的机会形成一个赚钱的建仓形态。突破回调也被称作杯柄形态。
+如果突破后一两根K线内就出现回调，这次突破已经失败。不过，即使是最强的突破也会有一到两根K线的失败，而那实际上只是变成了突破回调，而不是反转。一旦趋势恢复，这次突破失败就失败了——所有突破回调都是这种情况。由于它们是失败后的失败，它们就是二次入场，因此有很大的机会形成一个赚钱的建仓形态。突破回调也被称作杯柄形态。
 
 
 > If there is a pullback within a bar or two of the breakout, the breakout haS failed. However, even the strongest breakouts will have a one-or two-bar failure that in fact becomes just a Breakout Pullback instead of a reversal. Once the trend resumes, the failed breakout will have failed, which is the case in all Breakout Pullbacks. Since they are Failed Failures, they are second entries and therefore have an excellent chance of setting up a profitable trade. A Breakout Pullback is also referred to as a cup and handle.
@@ -4325,7 +4351,7 @@ FOMC（联邦公开市场委员会）报告在 PST 上午11:15发布，图 5.14�
 > Bar 1 in Figure 6.3 is a potential Breakout Failure, . but the breakout was strong and was made of three bear trend bars that covered most of the day's range. The market pulled back to the EMA and led to an M2S short. The second bear trend bar was the start of the reversal down from the second leg of the pullback to the EMA (a bull trend bar followed by a bear trend bar and then by a second bull trend bar is a two-legged move up).
 
 
-第3根K线又是对当日新低的一次潜在突破失败。这是跌破开盘区间低点之后第二次尝试上攻，而第二次尝试的成功率高得多。此外，那里还有一根小型反转K线。尽管它是根十字星、不是多头趋势K线，它却有比空头影线更大的多头影线，说明有一些买盘、空头也有所走弱。同时，第1根到第2根K线可能在构建最终旗形失败，因为它们相互重叠、大体横盘。另外，那根入场K线是一根多头趋势K线，它几乎被那根十字星内包，所以这类似一个 ii形态，而第二根K线收在多头一侧是强势迹象。
+第3根K线又是对当日新低的一次潜在突破失败。这是跌破开盘区间低点之后第二次尝试上攻，而第二次尝试的成功率高得多。此外，那里还有一根小型反转K线。尽管它是根十字星、不是多头趋势K线，它却有比空头影线更大的多头影线，说明有一些买盘、空头也有所走弱。同时，第1根到第2根K线可能在构建最终旗形失败，因为它们相互重叠、大体横盘。另外，那根入场K线是一根多头趋势K线，它几乎被那根十字星内包，所以这类似一个 ii形态，而第二根K线收在多头一侧是强势特征。
 
 
 > Bar 3 again was a potential failed breakout to a new low of the day. This is the second attempt to rally after breaking below the low of the open, and second attempts have a much higher success rate. Also, there was a small reversal bar. Even though it was a doji and not a bull trend bar, it had a bigger bull tail than bear tail, indicating some buying and some weakening of the bears, Also, Bars 1 through 2 could be setting up a Failed Final Flag since they are overlapping and largely sideways. Also, the entry bar was a bull trend bar that was almost inside the doji, so this is similar to an ii pattern, and the bull close of the second bar is a sign of strength.
@@ -4409,7 +4435,7 @@ GOOG 在图 6.6中形成了一连串突破回调入场点。开盘后那波急�
 > The one-bar selloff at the Bar 9 M2S (a Low 2 at the EMA) was followed by an inside bar signal bar, creating another Breakout Pullback short entry on Bar 10.
 
 
-第11根K线跌破了第5根K线的回调位，在第12根K线于均线处形成了一次突破回调的空头。这次回调也是对第7根到第9根K线趋势线的一次失败突破（图未显示）。
+第11根K线跌破了第5根K线的回调位，在第12根K线于均线处形成了一次突破回调的空头。这次回调也是对第7根到第9根K线趋势线的一次突破失败（图未显示）。
 
 
 > Bar 1 1 broke below the Bar 5 pullback and resulted in a Breakout Pullback short at the EMA at Bar 12. This pullback also was a failed breakout of the trendline from Bars 7 to 9 (not shown).
@@ -4821,7 +4847,7 @@ E 线是某个薄区的中点，而市场大幅过靶了它推算出的 F 线。
 > Although traders love to buy the first Higher Low in a new bull or sell the first Lower High in a new bear (there first must have been a break of a significant bear trendline), if the trend is good, there will be a series of pullbacks with trending swings (Higher Highs and Lows in a bull and Lower Highs and Lows in a bear), and each pullback can provide an excellent entry. The first pullback, for example, the first Higher Low in a new bull, can be a test of the bear low or a test of a breakout (of a key point like a trendline, prior swing point, trading range, or the moving average) and may not get very close to the bear low.
 
 
-大多数趋势都以趋势通道被突破而结束。例如，多头通常以两种方式之一结束。要么多头的趋势通道线被过靶、突破失败，随后向下反转，再跌破多头趋势线；要么市场在没有先过靶趋势通道线的情况下，直接跌破多头趋势线。如果多头以趋势通道线突破失败收场，通常会有两段下跌，而第一次回调几乎总会形成一个更低的高点（只有在极少数情况下才是更高的高点）作为对多头高点的测试。另一方面，如果多头以趋势线突破结束，对多头高点的测试既可以是更高的高点，也可以是更低的高点，两种情况出现的频率大体相当，都很常见。既然至少应有两段下跌，更高的高点之后应该跟着两段下跌，而更低的高点之后可能只有一段下跌，因为在更低的高点形成之前，第一段下跌已经发生过了。如果市场在对旧极值的测试中形成更高的高点，最佳交易之一就是卖出第一个更低的高点，那是对更高高点的测试。在空头中，在一次更低的低点反转之后（显然是在一波向上动能喷发突破一条主要趋势线之后），买进第一个更高的低点是必须的，因为这强化了大底已成立的前提。
+大多数趋势都以趋势通道被突破而结束。例如，多头通常以两种方式之一结束。要么多头的趋势通道线被过靶、突破失败，随后向下反转，再跌破多头趋势线；要么市场在没有先过靶趋势通道线的情况下，直接跌破多头趋势线。如果多头以趋势通道线突破失败收场，通常会有两段下跌，而第一次回调几乎总会形成一个更低的高点（只有在极少数情况下才是更高的高点）作为对多头高点的测试。另一方面，如果多头以趋势线突破结束，对多头高点的测试既可以是更高的高点，也可以是更低的高点，两种情况出现的频率大体相当，都很常见。既然至少应有两段下跌，更高的高点之后应该跟着两段下跌，而更低的高点之后可能只有一段下跌，因为在更低的高点形成之前，第一段下跌已经发生过了。如果市场在对旧极值的测试中形成更高的高点，最佳交易之一就是卖出第一个更低的高点，那是对更高的高点的测试。在空头中，在一次更低的低点反转之后（显然是在一波向上动能喷发突破一条主要趋势线之后），买进第一个更高的低点是必须的，因为这强化了大底已成立的前提。
 
 
 > Most trends end with a breakout of a trend channel. For example, a bull typically ends in one of two ways. Either there is an overshoot of the bull trend channel line that fails and is followed by a reversal down and then a break below the bull trendline, or the market can fall through the bull trendline without first overshooting the trend channel line. If the bull ends with a failed breakout of the trend channel line, there will typically be two legs down, and the first pullback will almost always form a Lower High (and only rarely a Higher High) as its test of the bull high. On the other hand, if the bull ends with a trendline break, the test of the bull high can either be a Higher High or a Lower High and each occurs about equally frequently. Since at least two legs down are to be expected, a Higher High should be followed by two legs down, and a Lower High may be followed by a single leg, since the first leg down already occurred just before the Lower High formed. If the market forms a Higher High in its test of the old extreme, one of the best trades is to sell the first Lower High, which is a test of the Higher High. In a bear after a Lower Low reversal (obviously after an upward momentum surge that broke a major trendline), it is imperative to buy the first Higher Low because this reinforces the premise that a major bottom is in.
@@ -4935,7 +4961,7 @@ E 线是某个薄区的中点，而市场大幅过靶了它推算出的 F 线。
 **图 8.1　日线 Emini 出现过许多趋势变化，每一次都遵循标准的价格行为原则，一如预期**
 
 
-第5根K线跌破趋势线后立即反转上涨。不过，这样一来就生成了一条更平缓的趋势线。第6根K线是一个小楔形，回调到第7根K线时形成了一条新趋势线。第8根K线是楔形顶部之后的反转，这通常会带来两段下跌。它同时也是第三次向上推进。第9根K线这一段跌破了多头最后一个更高的低点（第7根K线），显示空头强势。第9根K线突破了多头趋势线，所以预期有两段下跌。第9根K线结束了第一段，随后应该出现一个更低的高点或更高的高点。这里出现的是更低的高点，第二段下跌在第11根K线结束。第10根K线是一波强势上涨，这种强势只能被一段跌破第9根K线（第一段下跌）的强势行情所否定。第11根K线在略微跌破第9根K线之后反转回升，所以这很可能是先前多头中两段式修正的结束。然而，这次修正突破了从第2根K线低点以来的主要趋势线，所以市场可能在测试第8根K线高点之后向下反转。第12根K线形成一个两段式的更高高点，新的空头至少应该有两段下跌。它同时还是一个小扩张三角形（第6、7、8根K线）。跌向第13根K线的第一段非常强势，远远跌破第8根到第11根K线构成的多头旗形。第14根K线的更低的高点形成之后，就可以用它画出一条趋势线，再画出趋势通道线。第15根K线从趋势通道线的突破处反转上涨，所以随后应该有两段上涨并突破空头趋势线，事实也正是如此。第16根K线跌破第一条多头趋势线后反转上涨。第17根K线是从多头趋势通道线上方突破之后的突破回调。这波上涨在第18根K线处以一个小楔形结束，它形成了一个名义上的更高高点，也构成了一个扩张三角形（第8、11、12、15和18根K线）。楔形是趋势通道线过靶的一种形式，很可能有两段下跌。第18根K线与第12根K线构成双顶。第19根K线跌破多头趋势线。第20根K线形成一个更低的高点，可以据此画出趋势线和趋势通道线。第21根K线跌破那条第18–20根K线趋势通道线（未画出），并形成一个始于第19根K线的楔形。上涨到第22根K线时突破了空头的最后一个小高点，也突破了空头趋势线，但在自第18根K线高点以来的下跌段中形成了第二个更低的高点。对第22根K线高点的测试在第23根K线失败（它没有涨过第22根K线），所以还会形成另一段下跌。
+第5根K线跌破趋势线后立即反转上涨。不过，这样一来就生成了一条更平缓的趋势线。第6根K线是一个小楔形，回调到第7根K线时形成了一条新趋势线。第8根K线是楔形顶部之后的反转，这通常会带来两段下跌。它同时也是第三次向上推进。第9根K线这一段跌破了多头最后一个更高的低点（第7根K线），显示空头强势。第9根K线突破了多头趋势线，所以预期有两段下跌。第9根K线结束了第一段，随后应该出现一个更低的高点或更高的高点。这里出现的是更低的高点，第二段下跌在第11根K线结束。第10根K线是一波强势上涨，这种强势只能被一段跌破第9根K线（第一段下跌）的强势行情所否定。第11根K线在略微跌破第9根K线之后反转回升，所以这很可能是先前多头中两段式修正的结束。然而，这次修正突破了从第2根K线低点以来的主要趋势线，所以市场可能在测试第8根K线高点之后向下反转。第12根K线形成一个两段式的更高的高点，新的空头至少应该有两段下跌。它同时还是一个小扩张三角形（第6、7、8根K线）。跌向第13根K线的第一段非常强势，远远跌破第8根到第11根K线构成的牛旗。第14根K线的更低的高点形成之后，就可以用它画出一条趋势线，再画出趋势通道线。第15根K线从趋势通道线的突破处反转上涨，所以随后应该有两段上涨并突破空头趋势线，事实也正是如此。第16根K线跌破第一条多头趋势线后反转上涨。第17根K线是从多头趋势通道线上方突破之后的突破回调。这波上涨在第18根K线处以一个小楔形结束，它形成了一个名义上的更高的高点，也构成了一个扩张三角形（第8、11、12、15和18根K线）。楔形是趋势通道线过靶的一种形式，很可能有两段下跌。第18根K线与第12根K线构成双顶。第19根K线跌破多头趋势线。第20根K线形成一个更低的高点，可以据此画出趋势线和趋势通道线。第21根K线跌破那条第18–20根K线趋势通道线（未画出），并形成一个始于第19根K线的楔形。上涨到第22根K线时突破了空头的最后一个小高点，也突破了空头趋势线，但在自第18根K线高点以来的下跌段中形成了第二个更低的高点。对第22根K线高点的测试在第23根K线失败（它没有涨过第22根K线），所以还会形成另一段下跌。
 
 
 > Bar 5 pulled back below the trendline and immediately reversed up. However, this now generated a flatter trendline. Bar 6 was a small Wedge and the pullback to Bar 7 created a new trendline. Bar 8 was a reversal after a Wedge top, and that usually leads to two legs down. It was also a Third Push up. The Bar 9 leg fell below the last Higher Low (Bar 7) of the bull, indicating bear strength. Bar 9 broke the bull trendline so two legs down are expected. Bar 9 ended the first leg, and it should be followed by a Lower High or a Higher High. Here, there was a Lower High, and the second leg down ended at Bar 11. Bar 10 was a strong rally, and this strength could only be negated by a strong move below Bar 9, the first leg down. Bar 1 1 reversed back up after falling just a little below Bar 9, so this was likely the end of a two-legged correction in the prior bull. However, this correction broke a major trendline from the Bar 2 low, so the market could reverse down after a test of the Bar 8 high. Bar 12 formed a two-legged Higher High, and the new bear should have at least two legs down. It was also a small Expanding Triangle (Bar 6, 7, 8, The first leg down to Bar 13 was very strong, dropping well below the Bars 8 to 1 1 bull flag. Once the Bar 14 Lower High formed, it could be used to create a trendline and then a trend channel line. Bar 15 reversed up from its breakout of the trend channel line, so it should be followed by two legs up and a break above the bear trendline, which it was. Bar 16 broke below the first bull trendline and reversed up. Bar 17 was a Breakout Pullback from the breakout above the bull trend channel line. This rally ended in a small Wedge at Bar 18, which formed a nominal Higher High and an Expanding Triangle (Bars 8, 1 1, 12, 15, and 18). A Wedge is a form of a trend channel line overshoot, and two legs down are likely. Bar 18 was a Double Top with Bar 12. Bar 19 fell below the bull trendline. Bar 20 formed a Lower High, and it allowed for the creation of a trendline and trend channel line. Bar 21 fell below that Bar 18-20 trend channel line (not shown) and formed a Wedge that began at Bar 19. The rally up to Bar 22 broke above the last small high of the bear, and it broke above the bear trendline, but formed the second Lower High in the leg down from the Bar 18 high. The test of the Bar 22 high failed at Bar 23 (it did not go above Bar 22), so another down leg will form.
@@ -4959,7 +4985,7 @@ E 线是某个薄区的中点，而市场大幅过靶了它推算出的 F 线。
 > Once there has been a strong Countertrend move, there will be a pullback that will be a test for both the bulls and the bears. For example, if there was a strong downward move in a bull market and the move broke through a trendline that has held for 20 to 40 bars, and the down move continued for 20 bars and carried well below the 20-bar EMA and even below the low of the last Higher Low of the bull, then the bears have demonstrated considerable strength. Once this first leg down exhausts itself, bears will begin to take partial profits, and bulls will begin to reinstate their longs. Both will cause the market to move higher, and both bulls and bears will watch this move very carefully. Because the down leg was so strong, both the bulls and bears believe that its low will likely be tested before the market breaks out into a new high. Therefore, as the market rallies, if there is not strong momentum, the new bulls will start to take profits, and the bears will become aggressive and add to their shorts. The rally will likely have many bear bars and tails, both of which indicate that the bulls are weak. The selloff down from this rally creates the first Lower High in a potential new bear. In any case, the odds are high that there will be a second leg down, since both the bulls and bears expect it and will be trading accordingly. The single most important concept in this book is that you should only be trading in the direction of trendlines and you must wait for the break of a significant trendline before taking a Countertrend position.
 
 
-几乎所有反转都以趋势线突破或趋势通道线过靶并反转开始，而当反转出现时，这些最终都会突破趋势线。趋势线突破是交易者在建立逆势仓位之前需要看到的东西。在它出现之前，大多数人做任何逆势交易都会剥头皮出场。没有趋势线突破时，强势趋势依然有效，交易者应该确保自己把握每一次顺势入场，不要为错过偶尔一次逆势剥头皮而挂心。最好的赔率和最多的钱都在顺势交易里。在没有趋势通道线过靶与反转的情况下，真正的 V 形底和 V 形顶极为罕见，不值得考虑。交易者应该专注于常见的形态，而如果偶尔错过一次罕见事件，总会有一次回调让他们可以跟上新趋势开始交易。
+几乎所有反转都以趋势线突破或趋势通道线过靶并反转开始，而当反转出现时，这些最终都会突破趋势线。趋势线突破是交易者在建立逆势仓位之前需要看到的东西。在它出现之前，大多数人做任何逆势交易都会剥头皮出场。没有趋势线突破时，强趋势依然有效，交易者应该确保自己把握每一次顺势入场，不要为错过偶尔一次逆势剥头皮而挂心。最好的赔率和最多的钱都在顺势交易里。在没有趋势通道线过靶与反转的情况下，真正的 V 形底和 V 形顶极为罕见，不值得考虑。交易者应该专注于常见的形态，而如果偶尔错过一次罕见事件，总会有一次回调让他们可以跟上新趋势开始交易。
 
 
 > Virtually all reversals begin with either a trendline break or trend channel line overshoot and reversal, and all of those eventually break the trendline when there is a reversal. The trendline break is what traders need to see before they feel confident about Countertrend positions. Until there is one, most will scalp out of any Countertrend trade. In the absence of a trendline break, there is still a strong trend in effect, and traders should make sure that they take every With Trend entry and don't worry about missing an occasional Countertrend scalp. The best odds and the most money are in the With Trend trades. True V bottoms and tops in the absence of trend channel line overshoots and reversals are so rare that they are not worth considering. Traders should focus on common patterns, and if they miss an occasional rare event, there will always be a pullback where they can start trading with the new trend.
@@ -4977,7 +5003,7 @@ E 线是某个薄区的中点，而市场大幅过靶了它推算出的 F 线。
 > When there is a strong break of a trendline, there will usually be a second leg after a pullback. The pullback often retraces and tests the old trendline, but there are almost always more reliable Price Action reasons for entering there in the attempt to catch the second leg of the pullback (or new trend). The stronger the move through the trendline, the more likely it is that there will be a second leg after a pullback. The pullback that tests the trend's extreme can overshoot (a Higher High in a reversal down from a bull or a Lower Low at the end of a bear) or undershoot (a Lower High in a new bear or a Higher Low in a new bull). If there is an overshoot but it extends well beyond the old extreme, the reversal is nullified, and the old trend has resumed. Traders need to look for another trendline break or trend channel line overshoot before taking a Countertrend trade.
 
 
-趋势线突破（可能反转的第一段）的强势迹象包括：
+趋势线突破（可能反转的第一段）的强势特征包括：
 
 
 > Signs of strength of a trendline break (the first leg of a possible reversal) include:
@@ -5019,13 +5045,13 @@ E 线是某个薄区的中点，而市场大幅过靶了它推算出的 F 线。
 > - The reversal back to test the old trend's extreme lacks momentum, as evidenced by its having many overlapping bars with many being trend bars in the direction of the new trend.
 
 
-- 回到旧趋势极值的测试在 EMA 或旧趋势线处失败，没有接近该极值。图 8.3中跌向第4根K线的那段弱势空头行情勉强突破了趋势线，它没有接近跌破多头最后一个更高的低点（第2根K线），也没能突破 EMA。不过，第6根K线仍是对第3根K线多头极值可以接受的更高高点测试，尤其因为它是从前一日高点被突破后的开盘反转。
+- 回到旧趋势极值的测试在 EMA 或旧趋势线处失败，没有接近该极值。图 8.3中跌向第4根K线的那段弱势空头行情勉强突破了趋势线，它没有接近跌破多头最后一个更高的低点（第2根K线），也没能突破 EMA。不过，第6根K线仍是对第3根K线多头极值可以接受的更高的高点测试，尤其因为它是从前一日高点被突破后的开盘反转。
 
 
 > - The reversal back to test the old trend's extreme fails at the EMA or the old trendline and does not get close to the extreme. The weak bear leg to Bar 4 in Figure 8.3 barely broke the trendline, and it did not come close to falling below the last Higher Low in the bull (Bar 2), and it could not break through the EMA. However, Bar 6 is still an acceptable Higher High test of the Bar 3 bull extreme, especially since it is a reversal on the open from a breakout of the prior day's high.
 
 
-跌向第9根K线的那段空头行情跌破了一条更长的趋势线、EMA 以及多头最后一个更高的低点（第5根K线），而且它之前还出现过一次急速的趋势反转尝试（跌到第4根K线的抛售）。同样，随后那波小幅上涨没有接近测试趋势线的下沿，也没有接近测试第一段下跌中第8根K线的第一次回调。所有这些都是趋势线突破的强势迹象，增大了至少出现第二段下跌或一次真正趋势反转的可能。这个形态同时也是头肩顶，但不值得带着这种眼光去看价格行为；更好的做法是把多得多的注意力放在靠近你打算入场处的那些K线上。此外，大多数头肩形态都失败，远不如逐棒的价格行为可靠。
+跌向第9根K线的那段空头行情跌破了一条更长的趋势线、EMA 以及多头最后一个更高的低点（第5根K线），而且它之前还出现过一次急速的趋势反转尝试（跌到第4根K线的抛售）。同样，随后那波小幅上涨没有接近测试趋势线的下沿，也没有接近测试第一段下跌中第8根K线的第一次回调。所有这些都是趋势线突破的强势特征，增大了至少出现第二段下跌或一次真正趋势反转的可能。这个形态同时也是头肩顶，但不值得带着这种眼光去看价格行为；更好的做法是把多得多的注意力放在靠近你打算入场处的那些K线上。此外，大多数头肩形态都失败，远不如逐棒的价格行为可靠。
 
 
 > The bear leg to Bar 9 broke below a longer trendline, the EMA, and the last Higher Low of the bull (Bar 5), and it followed a previous sharp attempt at a trend reversal (the selloff to Bar 4). Also, the small rally that followed it did not come close to testing the underside of the trendline or the Bar "8 first pullback in the first leg down. All of these are signs of strength of the trendline break and increase the chances for at least a second leg down or an actual trend reversal. The pattern was also a Head and Shoulders Top, but it is not worth looking at price action with that in mind; it is better to pay much more attention to the bars closer to where you are thinking of entering. Also, most Head and Shoulder patterns fail and are not nearly as reliable as the bar-by-bar price action.
@@ -5091,7 +5117,7 @@ E 线是某个薄区的中点，而市场大幅过靶了它推算出的 F 线。
 > Bar 8 overshot the bear trend channel line, and the signal bar was an inside bar with a good-size bull body. This setup was also a second attempt to reverse yesterday's low (a Failed Final Flag buy setup after the breakout of the Bar 7 flag), creating a dependable Opening Reversal setup.
 
 
-### 反转第一段的强势迹象
+### 反转第一段的强势特征
 
 
 > SIGNS OF STRENGTH IN THE FIRST LEG OF A REVERSAL
@@ -5187,7 +5213,7 @@ E 线是某个薄区的中点，而市场大幅过靶了它推算出的 F 线。
 **图 8.5　不要被关在新趋势之外**
 
 
-第3根K线是一根外包下跌K线。聪明的交易者不会在这里买进，因为市场正试图从一个最终多头旗形反转，而他们预期会有两段下跌行情。另外，高潮之后的小K线：（从那个旗形向上突破的那根大多头趋势K线）几乎总是引出一段拖长的行情。市场并不着急，K线实体很小就说明了这一点。
+第3根K线是一根外包下跌K线。聪明的交易者不会在这里买进，因为市场正试图从一个最终牛旗反转，而他们预期会有两段下跌行情。另外，高潮之后的小K线：（从那个旗形向上突破的那根大多头趋势K线）几乎总是引出一段拖长的行情。市场并不着急，K线实体很小就说明了这一点。
 
 
 > Bar 3 was an outside bar down. Smart traders would not be buying in here since the market was attempting to reverse from a Final Bull Flag and they are expecting two legs down. Also, small bars after a climax: (a large bull trend bar breakout from that flag) almost always lead to a protracted move. The market is not in a hurry, as indicated by the small size of the bars.
@@ -5673,7 +5699,7 @@ E 线是某个薄区的中点，而市场大幅过靶了它推算出的 F 线。
 **图 8.23　空头急速行情与交易区间顶部**
 
 
-图 8.24中的两张图都是同一段时间的5分钟 SPY。向第2根K线的这波上冲是一段强劲的多头急速行情。在第3根K线处出现了一次跌破趋势线的急速均线回调，之后多头通道开始。然而，它在第4根K线处以一个两段式的更低的高点告败。当市场用第5根K线的回调跌出多头通道时（这次回调同时也跌破了主要多头趋势线），一切就变得很明显：这不是一个多头急速与通道日，市场正在形成一个交易区间。这后来变成了一个三角形顶部，随后是一段向下的急速与通道。当第8根K线上那个均线缺口2的多头建仓形态失败时，情况就很清楚：空头掌控了局面，一个空头通道正在进行，而向第5根K线的这一跌就是那段空头急速行情。此时，你应该设法抓住所有做空入场机会，并把任何做多都只看作剥头皮（总的来说，在这种强趋势里，更好的做法是忽略做多建仓形态，只做顺势），直到出现一次高潮性的过靶空头趋势通道线并反转向上。第13根K线在三度跌破这类线之后反转向上。趋势常常以测试极值收尾，而这种测试往往有两段，每一段都到达一个更远的极值（多头里是更高的高点，空头里是更低的低点）。先前的那个极值加上随后的两段，构成三次推进，这是一种广受认可的反转建仓形态，名字很多。它非常频繁地呈现楔形，但有时这个楔形只依据K线实体画出，而不看影线。交易者去细究这些变体之间的微妙差别没有什么用，因为它们的相似之处足够多，做法完全一样。为了简便起见，就把这些三次推进形态当成楔形，因为它们大多数都以一个类似楔形的高潮点收场。三次推进形态里的趋势线和趋势通道线，可以像楼梯形态那样平行，像楔形那样收敛，或者像扩张三角形那样发散。这无关紧要，因为它们的表现相似，做法也一样。
+图 8.24中的两张图都是同一段时间的5分钟 SPY。向第2根K线的这波上冲是一段强劲的多头急速行情。在第3根K线处出现了一次跌破趋势线的急速均线回调，之后多头通道开始。然而，它在第4根K线处以一个两段式的更低的高点告败。当市场用第5根K线的回调跌出多头通道时（这次回调同时也跌破了主要多头趋势线），一切就变得很明显：这不是一个多头急速与通道趋势日，市场正在形成一个交易区间。这后来变成了一个三角形顶部，随后是一段向下的急速与通道。当第8根K线上那个均线缺口2的多头建仓形态失败时，情况就很清楚：空头掌控了局面，一个空头通道正在进行，而向第5根K线的这一跌就是那段空头急速行情。此时，你应该设法抓住所有做空入场机会，并把任何做多都只看作剥头皮（总的来说，在这种强趋势里，更好的做法是忽略做多建仓形态，只做顺势），直到出现一次高潮性的过靶空头趋势通道线并反转向上。第13根K线在三度跌破这类线之后反转向上。趋势常常以测试极值收尾，而这种测试往往有两段，每一段都到达一个更远的极值（多头里是更高的高点，空头里是更低的低点）。先前的那个极值加上随后的两段，构成三次推进，这是一种广受认可的反转建仓形态，名字很多。它非常频繁地呈现楔形，但有时这个楔形只依据K线实体画出，而不看影线。交易者去细究这些变体之间的微妙差别没有什么用，因为它们的相似之处足够多，做法完全一样。为了简便起见，就把这些三次推进形态当成楔形，因为它们大多数都以一个类似楔形的高潮点收场。三次推进形态里的趋势线和趋势通道线，可以像楼梯形态那样平行，像楔形那样收敛，或者像扩张三角形那样发散。这无关紧要，因为它们的表现相似，做法也一样。
 
 
 > Both charts in Figure 8.24 are of the same time period of the 5-minute SPY. The run up to Bar 2 was a strong bull spike. After the sharp EMA pullback to Bar 3 that broke a trendline, the bull channel began. However, it failed in a two-legged Lower High at Bar 4. Once the market broke out of the bull channel with the Bar 5 pullback, which also broke the major bull trendline, it became obvious that this was not a bull Spike and Channel day and that the market was forming a trading range. This became a triangle top and then a Spike and Channel down. When the EMA Gap 2 long failed at Bar 8, it was clear that the bears were in control and that a bear channel was under way, with the push down to Bar 5 being the bear spike. At this point, you should try to take all short entries and consider any longs to be scalps (in general, it is better to ignore the long setups and just trade With Trend when there is a strong trend like this) until there is a climactic overshoot of the bear trend channel line and reversal up. Bar 13 reversed up from breaking three such lines. Trends often end with a test of the extreme, and the test often has two legs, each reaching a greater extreme C a Higher High in a bull or a Lower Low in a bear). The first extreme and then the two legs make Three Pushes, which is a well recognized reversal setup with many names. Very frequently it takes a Wedge shape, but sometimes the Wedge is only based on the candle bodies instead of the tails. It is not useful for a trader to draw subtle distinctions among the variations because there are enough similarities that they trade the same. For simplicity, think of these Three Push patterns as Wedges since most of them end in a climatic Wedge-like point. A trendline and trend channel line in a Three Push pattern can be parallel as in a Stair pattern, convergent as in a Wedge, or divergent as in an Expanding Triangle. It does not matter because they all behave similarly and you trade them the same.
@@ -5853,7 +5879,7 @@ SPY 日线图在2000年3月见顶，随后出现了一波三次推进的上涨�
 > In an Expanding Triangle reversal pattern, the lows keep getting lower, and the highs keep getting higher. Typically, there are five turns before the reversal but sometimes seven, as in the 5-minute SPY above. There are usually valid reasons to scalp each leg (for example, each leg is a new swing high or low), but once the fifth leg is complete, a larger trend can develop, and it is wise to swing part of the position. Also, once the pattern completes, it usually sets up an Expanding Triangle pattern in the opposite direction. If the first was a reversal pattern, then the next part of this pattern (which will be in the opposite direction), if it develops, will be a continuation pattern and vice versa.
 
 
-这样一来，图 8.31中的第5根K线就是第五段（第1根K线是第一段），因此是一个至少看两段上涨的做多建仓形态。然而，第6根K线是一次失败的突破做空建仓形态，也是一个小楔形，由此形成了一面扩张三角形熊旗（它的五个波段中的第一个是第2根K线）。
+这样一来，图 8.31中的第5根K线就是第五段（第1根K线是第一段），因此是一个至少看两段上涨的做多建仓形态。然而，第6根K线是一次突破失败做空建仓形态，也是一个小楔形，由此形成了一面扩张三角形熊旗（它的五个波段中的第一个是第2根K线）。
 
 
 > Bar 5 in Figure 8.31 was then the fifth leg (Bar 1 was the first) and therefore a buy setup for at least two legs up. However, Bar 6 was a failed breakout short setup and a small Wedge, creating an Expanding Triangle bear flag (the first of its five swings is Bar 2).
@@ -5960,7 +5986,7 @@ SPY 日线图在2000年3月见顶，随后出现了一波三次推进的上涨�
 > Once these are hit, these new buyers will also become sellers, pushing the price further down. Also, the original shorts will sense that the new longs are trapped and many will increase their short positions. As price falls three, four, or five ticks, the stopped out buyers will switch from looking to buy to waiting for more price action to unfold. In the absence of buyers, price will continue to fall in search of enough bids to satisfy the sellers. At some point, sellers will begin to cover and take profits, slowing the price fall, and buyers will again begin to buy. Once the buying pressure overtakes the selling pressure, the price will then go up again.
 
 
-一个最小报价单位的失败形态是新交易者亏钱的常见来源。他会看到自己认为是好建仓形态的一个机会，比如一次做多，然后他信心十足地把买入止损单挂在前一根K线高点之上一个最小报价单位处。正如所料，市场跳上去打掉了他的入场止损，让他做多了。可紧接着的下一个最小报价单位就是更低的一个，然后是两个、三个，30秒之内，他眼睁睁看着自己的保护性止损被打掉，亏掉两个点。他想不明白，怎么会有人恰好在他买进的地方卖出。那是一个多好的建仓形态啊！几乎无一例外，他都是在还没有多头强势迹象（比如先前一波涨过一条空头趋势线）的时候就逆势买入；或者，他是在铁丝网顶部一根实体很小的巨大十字星上方买入，或者在一面被他误读成反转的熊旗上方买入——他被自己在看似超跌的空头里想早早进场的急切心情冲昏了头。
+一个最小报价单位的失败形态是新交易者亏钱的常见来源。他会看到自己认为是好建仓形态的一个机会，比如一次做多，然后他信心十足地把买入止损单挂在前一根K线高点之上一个最小报价单位处。正如所料，市场跳上去打掉了他的入场止损，让他做多了。可紧接着的下一个最小报价单位就是更低的一个，然后是两个、三个，30秒之内，他眼睁睁看着自己的保护性止损被打掉，亏掉两个点。他想不明白，怎么会有人恰好在他买进的地方卖出。那是一个多好的建仓形态啊！几乎无一例外，他都是在还没有多头强势特征（比如先前一波涨过一条空头趋势线）的时候就逆势买入；或者，他是在铁丝网顶部一根实体很小的巨大十字星上方买入，或者在一面被他误读成反转的熊旗上方买入——他被自己在看似超跌的空头里想早早进场的急切心情冲昏了头。
 
 
 > A One-Tick Failure is a common source of losses for a new trader. The trader will see what he believes is a good setup, for example, a buy, and he confidently places a buy stop order at one tick above the high of the prior bar. As expected, the market ticks up and hits his entry stop, making him long. But the very next tick is one tick lower, then two, then three, and within 30 seconds, he loses two points as he watches his protective stop get hit. He wonders how anyone could be selling exactly where he was buying. It was such a great setup! Almost invariably, he was buying Countertrend before there was a sign of bullish strength, like a prior surge above a bear trendline. Or he was buying above a huge doji with a tiny body at the top of Barb Wire or a bear flag that he misread as a reversal, overcome by his eagerness to get in early in what he perceived as an overdone bear.
@@ -6014,7 +6040,7 @@ SPY 日线图在2000年3月见顶，随后出现了一波三次推进的上涨�
 > Bar 4 broke one tick below the small swing low of four bars earlier. Bar 5 was a large bull trend bar, and there would therefore be stops at one tick below its low. These were run by one tick on Bar 7.
 
 
-第9根K线往低走了一个最小报价单位，把交易者套住，让他们以为自己是在做一个更低的高点的空单，而它实际上是一面横盘多头旗形。
+第9根K线往低走了一个最小报价单位，把交易者套住，让他们以为自己是在做一个更低的高点的空单，而它实际上是一面横盘牛旗。
 
 
 > Bar 9 went one tick lower, trapping traders into what they thought was a Lower High short but actually was a sideways bull flag.
@@ -6026,7 +6052,7 @@ SPY 日线图在2000年3月见顶，随后出现了一波三次推进的上涨�
 > Bar 10 ran the breakeven protective stop for the Bar 6 shorts by two ticks.
 
 
-第14根K线是最可靠的一个最小报价单位的失败形态之一……一次失败的高2，而新手交易者错误地把它当成了多头回调。这是一个完美的陷阱，并带来了一波强劲下跌（图未显示）。他们没注意到回调到第11根K线时已经突破了趋势线，然后第12根K线又做了更高的高点测试。另外，从高点往下有五根空头趋势K线和一根十字星，而第13根K线的高1之后没有趋势线突破。这不是一个好的高2做多建仓形态，因为此前没有强势。记住，光有一个高2并不是买入信号。必须有强势迹象，而且当然不能有反转迹象（比如趋势线突破、以及从更高的高点反转向下）。
+第14根K线是最可靠的一个最小报价单位的失败形态之一……一次失败的高2，而新手交易者错误地把它当成了多头回调。这是一个完美的陷阱，并带来了一波强劲下跌（图未显示）。他们没注意到回调到第11根K线时已经突破了趋势线，然后第12根K线又做了更高的高点测试。另外，从高点往下有五根空头趋势K线和一根十字星，而第13根K线的高1之后没有趋势线突破。这不是一个好的高2做多建仓形态，因为此前没有强势。记住，光有一个高2并不是买入信号。必须有强势特征，而且当然不能有反转迹象（比如趋势线突破、以及从更高的高点反转向下）。
 
 
 > Bar 14 is one of the most reliable One-Tick Failures . . . a failed High 2 in what novice traders erroneously assumed to be a bull pullback. This is a perfect trap and lead to a strong down move (not shown). They missed noticing the trendline break by the pullback to Bar 1 1 and then the Higher High test at Bar 12. Also, there were five bear trend bars and one doji down from the high and no trendline break after the Bar 13 High 1 . This was not a good High 2 long setup since there was no prior strength. Remember, a High 2 alone is not a buy signal. There have to be signs of strength, and certainly not signs of a reversal (like a trendline break and reversal down off a Higher High).
@@ -6188,7 +6214,7 @@ SPY 日线图在2000年3月见顶，随后出现了一波三次推进的上涨�
 > Bar 10 was a Lower Low and the second leg down in a possible larger bull (its low was above the Bar 2 low, so the market might still be forming large bull trending swings). Two legs down in a bull or sideways market, especially two pushes below a fiat EMA, is always a good long.
 
 
-第11根K线是一个更高的高点，因为它高于第9根K线的摆动高点，尽管第9根K线属于先前那一段下跌。仍然会有交易者在那里交易（空头的止损、买入突破的止损单、以及新的空头都会出现），因为走到任何一个先前摆动高点之上都是强势迹象，在交易区间日里也是一个潜在的反向操作点（要去找突破失败，以及强势迹象缺乏后续行情的时候）。
+第11根K线是一个更高的高点，因为它高于第9根K线的摆动高点，尽管第9根K线属于先前那一段下跌。仍然会有交易者在那里交易（空头的止损、买入突破的止损单、以及新的空头都会出现），因为走到任何一个先前摆动高点之上都是强势特征，在交易区间日里也是一个潜在的反向操作点（要去找突破失败，以及强势特征缺乏后续行情的时候）。
 
 
 > Bar 1 1 is a Higher High because it was above the Bar 9 swing high, even though Bar 9 was part of the prior down leg. There will still be traders who will trade there (there will be stops on shorts, stops to buy the breakout, and new shorts), because going above any prior swing high is a sign of strength and a potential fade on a trading range day (look for breakouts to fail and signs of strength to lack follow through).
@@ -6290,7 +6316,7 @@ AAPL 是日内交易者遇到的最规矩的股票之一。像许多别的股票
 > For example, Bar 1 in Figure 9.13 broke above a steep, three-bar Micro Trendline and then had a good short entry at one tick below its low.
 
 
-第3根K线是一根强多头反转K线、突破了陡峭的微型趋势线，因此是一个做空建仓形态（任何对趋势线之上的突破，哪怕是强多头反转K线造成的，都是做空的建仓形态），随后的内包K线下方触发了做空。第3根K线跟在一次跌破 ii形态（可能是一次最终旗形失败）之后，但那个 ii形态并没有突破趋势线，也没有别的多头强势迹象，所以做多的交易者会想要一次二次入场，他们在第4根K线上等到了。虽然灵活的剥头皮交易者也许能从跌到第4根K线低点那波29美分的突破里赚到一点钱，但会很难，所以这实际上是一次失败后的失败跌破 ii形态（可能是一次最终旗形失败）之后，但那个 ii形态并没有突破趋势线，也没有别的多头强势迹象，所以做多的交易者会想要一次二次入场，他们在第4根K线上等到了。虽然灵活的剥头皮交易者也许能从跌到第4根K线低点那波29美分的突破里赚到一点钱，但会很难，所以这实际上是一次失败后的失败（市场没能突破空头趋势线之后，也没能走出一次轻松的空头剥头皮利润）。失败后的失败通常够走两段行情，而当它伴随微型趋势线出现时，它运作起来就像一个突破回调做多建仓形态，尽管它其实是一个更低的低点。第4根外包K线入场之后，出现了一波小幅两段式上涨。前一根K线是那次失败微型趋势线突破做空的入场K线，而做空入场K线上方总是有止损，这让第4根K线的做多更加确定。
+第3根K线是一根强多头反转K线、突破了陡峭的微型趋势线，因此是一个做空建仓形态（任何对趋势线之上的突破，哪怕是强多头反转K线造成的，都是做空的建仓形态），随后的内包K线下方触发了做空。第3根K线跟在一次跌破 ii形态（可能是一次最终旗形失败）之后，但那个 ii形态并没有突破趋势线，也没有别的多头强势特征，所以做多的交易者会想要一次二次入场，他们在第4根K线上等到了。虽然灵活的剥头皮交易者也许能从跌到第4根K线低点那波29美分的突破里赚到一点钱，但会很难，所以这实际上是一次失败后的失败跌破 ii形态（可能是一次最终旗形失败）之后，但那个 ii形态并没有突破趋势线，也没有别的多头强势特征，所以做多的交易者会想要一次二次入场，他们在第4根K线上等到了。虽然灵活的剥头皮交易者也许能从跌到第4根K线低点那波29美分的突破里赚到一点钱，但会很难，所以这实际上是一次失败后的失败（市场没能突破空头趋势线之后，也没能走出一次轻松的空头剥头皮利润）。失败后的失败通常够走两段行情，而当它伴随微型趋势线出现时，它运作起来就像一个突破回调做多建仓形态，尽管它其实是一个更低的低点。第4根外包K线入场之后，出现了一波小幅两段式上涨。前一根K线是那次失败微型趋势线突破做空的入场K线，而做空入场K线上方总是有止损，这让第4根K线的做多更加确定。
 
 
 > Bar 3 was a strong bull reversal bar break above a steep Micro Trendline and therefore was a bear setup (any break above the trendline, even if it is by a strong bull reversal bar, is a setup for a short), and a short was triggered below the inside bar that followed. Bar 3 followed a break below an ii (a possible Failed Final Flag), but the ii did not break the trendline, and there was no other sign of bullish strength, so longs would want a second entry, which they got on Bar 4. Although a nimble scalper might have been able to make some profit on the 29 cent breakout to the Bar 4 low, it would have been difficult, so this is effectively a failed failure break below an ii (a possible Failed Final Flag), but the ii did not break the trendline, and there was no other sign of bullish strength, so longs would want a second entry, which they got on Bar 4. Although a nimble scalper might have been able to make some profit on the 29 cent breakout to the Bar 4 low, it would have been difficult, so this is effectively a failed failure (the market failed to make an easy short scalper's profit after it failed to break above the bear trendline). Failed failures are usually good for a two-legged move, and when it occurs with a Micro Trendline, it operates like a breakout pullback long setup, even though it is a Lower Low. There was a small two-legged rally after the entry on the Bar 4 outside bar. That prior bar was the entry bar for the short from the failed Micro Trendline break, and there are always stops above short entry bars, making the Bar 4 long even more certain.
@@ -6482,7 +6508,7 @@ AAPL 是日内交易者遇到的最规矩的股票之一。像许多别的股票
 > If you shorted at the Bar 8 breakout of the inside bar, you would be nervous by the bar's close (a doji bar, indicating no conviction). However, most traders would not have taken that short because three or more sideways bars where at least one is a doji usually create too much uncertainty (Barb Wire). The two small bars before the outside bar were small enough to act like dojis, so it is best to wait for more price action. However, if you did not short on Bar 8, you would have to believe that many did and the doji close of their entry bar has these traders feeling uncomfortable with their positions. They will be quick to exit and are therefore trapped. They will likely buy back their shorts at one tick above the Bar 8 entry bar and be reluctant to sell again until they see better price action. With the shorts out of the market and with them buying back their positions, going long exactly where they are exiting (Bar 9, one tick above the short entry bar) should be good for a scalp and likely two legs up. Either buy Bar 9 at one tick above the doji inside bar or above the Bar 9, relying on Bar 9 being a bull trend bar and therefore a good long signal bar.
 
 
-一段拖得很长的趋势，常常会形成一个水平旗形：它横向延伸好几根K线，突破一条趋势线，然后突破到一个新的极值，但紧接着在随后几根K线里迅速反转。这种最终旗形失败的突破，常常标志着趋势的结束，有时还会带来一次反转。多数情况下，会出现一段可以交易、幅度很大的逆势行情，而且至少有两段。关键的一点是，这个旗形通常主要是水平的，而且往往可以简单到只是一个 ii形态（内包内包）。
+一段拖得很长的趋势，常常会形成一个水平旗形：它横向延伸好几根K线，突破一条趋势线，然后突破到一个新的极值，但紧接着在随后几根K线里迅速反转。这种最终旗形突破失败，常常标志着趋势的结束，有时还会带来一次反转。多数情况下，会出现一段可以交易、幅度很大的逆势行情，而且至少有两段。关键的一点是，这个旗形通常主要是水平的，而且往往可以简单到只是一个 ii形态（内包内包）。
 
 
 > A protracted trend often forms a horizontal flag that extends sideways for several bars, breaks a trendline, and then breaks out to a new extreme but quickly reverses in the next few bars. This Failed Final Flag breakout often marks the end of the trend and sometimes leads to a reversal. In most cases, there will be a tradable, extended Countertrend move that will have at least two legs. A key point is that the flag is usually mostly horizontal and often can be as simple as an ii pattern.
@@ -6494,7 +6520,7 @@ AAPL 是日内交易者遇到的最规矩的股票之一。像许多别的股票
 > A horizontal area is an area of two-sided trading where the buyers and sellers are evenly balanced, and therefore this area acts as a magnet that pulls each little move up or down back to the center or opposite side. For example, after an extended bull move, if the bulls seize control and push the market up, they will likely be quick to take profits and the bears will be confident that the prior trading range (flag) was an area of balance and therefore likely to be tested. Usually, the bulls will be reluctant to be aggressive again until after at least a two-legged correction that extends well below the flag (the flag breakout failed).
 
 
-微型趋势线突破回调，在某种程度上就是一种最终旗形失败。举例来说，当市场向上突破一条空头微型趋势线、随后又反转向下，但这段抛售在一两根K线之内就失败了，那么这次对趋势线的向上突破，实际上就是一次最终空头旗形的失败。
+微型趋势线突破回调，在某种程度上就是一种最终旗形失败。举例来说，当市场向上突破一条空头微型趋势线、随后又反转向下，但这段抛售在一两根K线之内就失败了，那么这次对趋势线的向上突破，实际上就是一次最终熊旗的失败。
 
 
 > A Micro Trendline Breakout Pullback is something of a Failed Final Flag. For example, when there is a break above a bear Micro Trendline and the market reverses down, but the sell off fails within a bar or two, the break above the trendline is effectively a Failed Final Bear Flag.
@@ -6506,7 +6532,7 @@ AAPL 是日内交易者遇到的最规矩的股票之一。像许多别的股票
 > Sometimes a Failed Final Flag reversal just leads to the development of a larger flag with a Wedge shape. For example, in a Failed Final Flag in a bull, the first leg of that flag is the lowest bar of the Wedge. The second leg is the bar that reversed the market down below the flag. And the rest of the Wedge is the two or more legged selloff down. This is now a larger bull flag that usually leads to a bull breakout. The flag may become a larger Failed Final Flag or just a continuation pattern in a larger bull.
 
 
-图 9.22中，第1根K线结束了开盘以来的两段下跌，因此它可能是当日低点。它是在一段拖得很长的行情之后，向上突破了一个横盘空头旗形，所以这可能是一次最终旗形失败、一次反转向上的机会。第1根K线是一根不错的反转K线，触发了这次最终旗形失败的做多，让交易者预期至少会有两段上涨。
+图 9.22中，第1根K线结束了开盘以来的两段下跌，因此它可能是当日低点。它是在一段拖得很长的行情之后，向上突破了一个横盘熊旗，所以这可能是一次最终旗形失败、一次反转向上的机会。第1根K线是一根不错的反转K线，触发了这次最终旗形失败的做多，让交易者预期至少会有两段上涨。
 
 
 > Bar 1 in Figure 9.22 ended two legs down from the open and was therefore a possible low of the day. It broke out of a sideways bear flag after a protracted move, so this could be a Failed Final Flag and a reversal up. Bar 1 was a good reversal bar, triggering the Failed Final Flag long, causing traders to expect at least two legs up.
@@ -6674,13 +6700,13 @@ AAPL 是日内交易者遇到的最规矩的股票之一。像许多别的股票
 > You need a sign of rejection before you buy in a bear. Basing a trade on a belief that the market is overdue for a correction is a losing approach to trading. Trends can go much further than most traders could ever imagine.
 
 
-交易者可以在第11根K线做空低1，但这是一个交易区间，而聪明的交易者不会在没有更强多头陷阱的情况下，在它的低点做空。这是第二次一个最小报价单位的失败突破。另外，楔形通常会有两次向上反弹的尝试（两段上涨），所以你只应该在楔形失败时（也就是跌破第9根K线的低点）做空，或者在第二次向上反弹的尝试失败时做空——就像第12根K线处的低2做空那样。
+交易者可以在第11根K线做空低1，但这是一个交易区间，而聪明的交易者不会在没有更强多头陷阱的情况下，在它的低点做空。这是第二次一个最小报价单位的突破失败。另外，楔形通常会有两次向上反弹的尝试（两段上涨），所以你只应该在楔形失败时（也就是跌破第9根K线的低点）做空，或者在第二次向上反弹的尝试失败时做空——就像第12根K线处的低2做空那样。
 
 
 > A trader could short the Low 1 at Bar 1 1, but this is a trading range, and smart traders will not short at its low without a stronger bull trap. It was a second One-Tick Failed Breakout. Also, a Wedge usually makes two attempts to rally (two legs up) so you should only short if the Wedge failed (that is, fell below the Bar 9 low), or if the second attempt to rally fails as it did at the Bar 12 Low 2 Short.
 
 
-第12根K线是连续第三次一个最小报价单位的失败突破，但这一次它出现在两段上涨之后（第9根K线和第11根K线），而且是一次低2做空。这是聪明的交易者会做的第一笔交易，因为它是熊旗里的一个低2。它之所以特别好，是因为让楔形向上反转的两次尝试都失败了（第10根K线和第12根K线），两次都没成。这两次尝试代表了从楔形起来的两段上涨，而且它们明显很弱。此外，连续三次一个最小报价单位的失败非常罕见，所以接下来的这波行情很可能会一路走开，尤其是在一个趋势日里、这还是一笔顺势交易。
+第12根K线是连续第三次一个最小报价单位的突破失败，但这一次它出现在两段上涨之后（第9根K线和第11根K线），而且是一次低2做空。这是聪明的交易者会做的第一笔交易，因为它是熊旗里的一个低2。它之所以特别好，是因为让楔形向上反转的两次尝试都失败了（第10根K线和第12根K线），两次都没成。这两次尝试代表了从楔形起来的两段上涨，而且它们明显很弱。此外，连续三次一个最小报价单位的失败非常罕见，所以接下来的这波行情很可能会一路走开，尤其是在一个趋势日里、这还是一笔顺势交易。
 
 
 > Bar 12 was a third One-Tick Failed Breakout in a row, but this time, it followed two legs up (Bars 9 and 1 1) and was Low 2 short. This is the first trade that smart traders would take, because it is a Low 2 in a bear flag. What made it especially good was that there were two failed attempts to make the Wedge reverse upward (Bars 10 and 12), and both failed. These represent the two legs up from the Wedge, and, they are clearly weak. Also, three One-Tick Failures in a row is very rare, so it is likely that the next move would run, especially since it was With Trend in a trend day.
@@ -6910,7 +6936,7 @@ AAPL 通常会给出赚一美元的剥头皮机会（这些行情通常超过一
 ![图 10.2](figures/fig-10-02.png)
 
 
-**图 10.2　1分钟图能让你搭上5分钟图的顺趋势交易**
+**图 10.2　1分钟图能让你搭上5分钟图的顺势交易**
 
 
 ![图 10.3](figures/fig-10-03.png)
@@ -7063,7 +7089,7 @@ FOMC 报告在11:15 A.M. PST 公布，引发了情绪化的交易：图 10.5中�
 > Bar 2 was a long at one cent above the high of the outside bar, which also broke below a bull Micro Trendline and reversed up.
 
 
-第3根K线是在一次主要趋势线突破之后出现的高1突破做多。第4根K线是一笔做空。它带一根反转K线，并且是对第3根K线牛旗的一次失败突破（最终旗形失败）。另外，第3根K线那面旗形跌破了一条大的多头趋势线，说明空头正在获得一点力量。只有在先出现过趋势线突破之后，才去反向操作一段强趋势。另外，在一段强趋势里做逆势交易，需要的是一根5分钟图（不是3分钟图或1分钟图）上的反转K线。市场在盘后时段的其余时间里横盘。
+第3根K线是在一次主要趋势线突破之后出现的高1突破做多。第4根K线是一笔做空。它带一根反转K线，并且是对第3根K线牛旗的一次突破失败（最终旗形失败）。另外，第3根K线那面旗形跌破了一条大的多头趋势线，说明空头正在获得一点力量。只有在先出现过趋势线突破之后，才去反向操作一段强趋势。另外，在一段强趋势里做逆势交易，需要的是一根5分钟图（不是3分钟图或1分钟图）上的反转K线。市场在盘后时段的其余时间里横盘。
 
 
 > Bar 3 was a High 1 breakout long after a major trendline break. Bar 4 was a short. It had a reversal bar and was a failed breakout of the Bar 3 bull flag (Failed Final Flag). Also, the Bar 3 flag broke a big bull trendline, indicating that the bears were gaining a little strength. Only fade a strong trend if there was first a trendline break. Also, a Countertrend trade in a strong trend needs a 5-minute (not a 3 or 1-minute) reversal bar. The market went sideways for the rest of the post market session.
@@ -7153,7 +7179,7 @@ FOMC 报告在11:15 A.M. PST 公布，引发了情绪化的交易：图 10.5中�
 > It is relatively easy to look for swings in high-volume stocks (at least three million shares per day but prefer seven million or more) that have an average range of several dollars. You want minimal slippage, reliable patterns, and at least one dollar profit per trade. Try to scalp for one dollar and then use a breakeven stop on the balance and hold until the close or until a clear and strong opposite setup develops. You might be able to watch about five stocks regularly throughout the day and sometimes check on up to another five or so at different times during the day, but you will rarely ever trade them.
 
 
-Emini 剥头皮交易者很可能一天只能做成几笔股票交易，因为 Emini 日内交易要占用太多注意力。另外，做股票只用K线图，这样你能在一个屏幕上放下六张图。只挑那只趋势最好的股票，然后在 EMA 附近找回调。如果你在先前的强劲趋势线突破之后，看到趋势通道线过靶并反转，也可以交易反转。如果 Emini 市场很活跃，可以考虑只交易15分钟股票图，它们需要的注意力更少。如果你漏掉了太多好的 Emini 交易，那也许是因为你被那些多出来的图分了心；这时候，不再看它们、只交易 Emini，要好得多。
+Emini 剥头皮交易者很可能一天只能做成几笔股票交易，因为 Emini 日内交易要占用太多注意力。另外，做股票只用K线图，这样你能在一个屏幕上放下六张图。只挑那只趋势最好的股票，然后在 EMA 附近找回调。如果你在先前的强趋势线突破之后，看到趋势通道线过靶并反转，也可以交易反转。如果 Emini 市场很活跃，可以考虑只交易15分钟股票图，它们需要的注意力更少。如果你漏掉了太多好的 Emini 交易，那也许是因为你被那些多出来的图分了心；这时候，不再看它们、只交易 Emini，要好得多。
 
 
 > An Emini scalper will likely only be able to enter a couple stock trades a day since Emini day trading takes so much attention. Also, only use bar charts for stocks, which allows you to put six charts on one screen. Just pick the one stock that is trending the best and then look for a pullback near the EMA. You can also trade reversals if you see a trend channel overshoot and reversal after there was a prior strong trend line break. If the Emini market is active, consider only trading 15-minute stock charts, which require less attention. If you are missing too many good Emini trades, it might be that you are getting distracted by the additional charts and it is far better then to stop looking at them and only trade the Emini.
@@ -7189,7 +7215,7 @@ Emini 剥头皮交易者很可能一天只能做成几笔股票交易，因为 E
 > If the market touches the profit target limit order but does not go through it and the order is still filled, that means that there might be more trend pressure than is evident on the chart and the chances increase that the market will go beyond the profit target within the next several bars. If you were long and the market was willing to buy your position back from you (you were selling on a limit to take profits) at the very highest tick of the leg, the buyers are aggressive and will likely reemerge on any pullback. Look for opportunities to get long again.
 
 
-同样，如果市场触及你的止盈目标（信号K线之外五个 tick），但你没能成交，这可能是一次失败形态。可以考虑在这根K线收盘后，在它相反一端之外一个 tick 处挂一张反手单。如果你是做多，而市场到了信号K线上方五个 tick 处、你却没有成交，可以考虑把止损移到保本。等这根K线收盘后，可以考虑在它下方一个 tick 处挂一张做空单，因为那里很可能就是剩下的大多数多头剥头皮交易者出场的位置，会制造卖压。另外，在更多价格行为展开之前，他们不会再想买入，这就把买方从市场里抽走，增大卖方把市场压得足够低、让你能从空头里剥头皮出场的概率。“五个 tick 的失败突破”在拖得很久的趋势末端很常见，而且往往是反转的第一个迹象。对剥头皮、并偶尔把一部分交易拿成波段来说，一个不错的替代做法是尽量在当天大部分时间里都留在场上，收盘时出场。交易者应该把入场重点放在主要摆动点和反转上，要么把整个持仓拿成波段，要么至少交易两张合约——一张剥头皮，然后把另一张的止损移到保本。对 Emini 来说，扫止损和深度回调很常见，所以最好是剥头皮一半、波段一半，并确保每一笔至少到过剥头皮利润的交易都能让你有所收获。
+同样，如果市场触及你的止盈目标（信号K线之外五个 tick），但你没能成交，这可能是一次失败形态。可以考虑在这根K线收盘后，在它相反一端之外一个 tick 处挂一张反手单。如果你是做多，而市场到了信号K线上方五个 tick 处、你却没有成交，可以考虑把止损移到保本。等这根K线收盘后，可以考虑在它下方一个 tick 处挂一张做空单，因为那里很可能就是剩下的大多数多头剥头皮交易者出场的位置，会制造卖压。另外，在更多价格行为展开之前，他们不会再想买入，这就把买方从市场里抽走，增大卖方把市场压得足够低、让你能从空头里剥头皮出场的概率。“五个 tick 的突破失败”在拖得很久的趋势末端很常见，而且往往是反转的第一个迹象。对剥头皮、并偶尔把一部分交易拿成波段来说，一个不错的替代做法是尽量在当天大部分时间里都留在场上，收盘时出场。交易者应该把入场重点放在主要摆动点和反转上，要么把整个持仓拿成波段，要么至少交易两张合约——一张剥头皮，然后把另一张的止损移到保本。对 Emini 来说，扫止损和深度回调很常见，所以最好是剥头皮一半、波段一半，并确保每一笔至少到过剥头皮利润的交易都能让你有所收获。
 
 
 > Similarly, ifthe market touches your profit target (five ticks beyond the signal bar) but you do not get filled, this can be a failure. Consider placing an order to reverse at one tick beyond the opposite end of the current bar once it closes. If you were long and the market hit five ticks above the signal bar and you were not filled, consider moving your stop to breakeven. Once this bar closes, consider placing an order to go short at one tick below this bar because that is likely where most of the remaining long scalpers will get out, providing selling pressure. Also, they will not want to buy again until more price action unfolds, thus removing buyers from the market and increasing the odds that the sellers will push the market down enough for you to scalp out of your short. A Five-Tick Failed Breakout is common at the end of a protracted trend and is often the first sign of a reversal. A good alternative to scalping and occasionally swinging a portion of the trade is to try to stay in the market most of the day, exiting on the close. Traders should focus on major swing points and reversals for entries and either swing the entire position or trade at least two contracts, scalp one, and then move the stop to breakeven on the other. For Eminis, there are often stop runs and deep pullbacks so it is preferable to scalp half and swing half, making sure that you get something out of every trade that reached at least a scalper's profit.
@@ -7824,7 +7850,7 @@ Emini 里的剥头皮交易者通常需要信号K线之外走出六个 tick 的�
 > Incidentally, when there is a strong move that ends in Three Pushes and then sells off with less momentum (shallower slope, smaller trend bars, more tails), the odds are high that the high of the Three Pushes will be exceeded shortly because this is likely a higher time frame Higher Low. The market fulfilled its Bar 7 objective on the open of the next day.
 
 
-图 11.5中，昨天是一个多头趋势性交易区间日、或者说一个趋势楼梯形态日，但它走出了三次推进向上，并沿着一条趋势线拾级而上，这通常意味着趋势线突破近在眼前。市场借着跳空开盘突破了这条趋势线；第1根K线是一笔做空的突破回调，它可能是空头开盘即趋势的起点。
+图 11.5中，昨天是一个多头趋势性交易区间日、或者说一个趋势楼梯形态交易日，但它走出了三次推进向上，并沿着一条趋势线拾级而上，这通常意味着趋势线突破近在眼前。市场借着跳空开盘突破了这条趋势线；第1根K线是一笔做空的突破回调，它可能是空头开盘即趋势的起点。
 
 
 > Yesterday in Figure 1 1.5 was a bull Trending Trading Range day or a Trending Stairs day but had Three Pushes up and walked up a trendline, which usually means that a trendline break is imminent. The market broke the trendline with the gap opening, and Bar 1 was a Breakout Pullback short, and it might be the start of a bear Trend from the Open.
@@ -8040,7 +8066,7 @@ DUG，突破失败。第12根K线是一个双顶熊旗；由于缺口很大、�
 > Bar 9 gapped below the low of the prior day and formed a bear trend bar, but it had big tails. It could be the start of a Trend from the Open bear. The second bar was a second bear trend bar with a close on its low, indicating that the bears were strong. Most traders would short at one tick below that low. The very next bar was the entry bar for the short, but it became a bull reversal bar. However, the protective stop above its high was not hit (and a two-point protective money stop was also not hit), and a scalper would have taken partial profits on his short at Bar 10.
 
 
-第10根K线也是（自第7根K线高点起的）第二段下跌，而第二段下跌可能带来反转。当天头四根K线大部分相互重叠，形成窄幅交易区间，所以交易突破是一件有风险的事。窄幅交易区间就像铁丝网，它像磁力位一样把突破拉回区间中部。最好的做法是：在区间极值附近对小K线做反向操作、对失败的突破做反向操作，并寻找突破回调。这一天三种情况都出现了。
+第10根K线也是（自第7根K线高点起的）第二段下跌，而第二段下跌可能带来反转。当天头四根K线大部分相互重叠，形成窄幅交易区间，所以交易突破是一件有风险的事。窄幅交易区间就像铁丝网，它像磁力位一样把突破拉回区间中部。最好的做法是：在区间极值附近对小K线做反向操作、对突破失败做反向操作，并寻找突破回调。这一天三种情况都出现了。
 
 
 > Bar 10 was also the second leg down (from the Bar 7 high), which can lead to a reversal. The first four bars of the day were largely overlapping, forming a Tight Trading Range, so trading breakouts is a risky proposition. A Tight Trading Range is like Barb Wire, and it acts as a magnet, drawing breakouts back toward its middle. The best thing to do is to fade small bars near its extreme, fade failed breakouts, and look for Breakout Pullbacks. This day had all three.
@@ -8058,7 +8084,7 @@ DUG，突破失败。第12根K线是一个双顶熊旗；由于缺口很大、�
 > Bar 11 was a Breakout Pullback (the breakout below yesterday's trading range) and a bear M2S. This M2S broke a small bull trendline at Bar 12 and reversed back up, setting up a Breakout Pullback long above the inside bar that followed Bar 12. A market that turns up from a Low 2 often rallies for at least two more legs, and since big gap days often become trend days, this could be, and was, the start of a big move. Sometimes the first bar of the day forms the high or low of the day, and the day begins a trend from the very first bar (a Trend from the First Bar version of a Trend from the Open). The trend can also start from the second bar (or even after a few sideways bars) and still qualify as a Trend from the Open. This often leads to a strong trend day, and if you miss the entry on the open, look to enter on the First Pullback.
 
 
-图 11.11中，市场向下跳空到昨日低点之下，并突破出昨日下半场形成的一个大型交易区间（一个头肩熊旗）。今天的第一根K线是一根多头趋势K线，这通常会带来一次部分缺口回补。许多人在那根多头趋势K线高点上方一个 tick 处挂止损单做多。然而，两根K线之后，当市场跌到那根多头信号K线（以及入场K线）的低点之下时，这些多头被套住了。第1根K线提供了一个极好的做空机会：在那根多头趋势K线低点下方一个 tick 处做空，因为大多数被套的多头正是会在这里出局，从而把市场往下推。这是一次突破回调做空。另外，任何潜在的买方都会等待更多的价格行为，所以市场中只剩卖方，这就构成一笔高概率的做空。空头顺着那一路上出现的空头旗形不断加仓，而那些旗形也套住了其他早进场的多头。
+图 11.11中，市场向下跳空到昨日低点之下，并突破出昨日下半场形成的一个大型交易区间（一个头肩熊旗）。今天的第一根K线是一根多头趋势K线，这通常会带来一次部分缺口回补。许多人在那根多头趋势K线高点上方一个 tick 处挂止损单做多。然而，两根K线之后，当市场跌到那根多头信号K线（以及入场K线）的低点之下时，这些多头被套住了。第1根K线提供了一个极好的做空机会：在那根多头趋势K线低点下方一个 tick 处做空，因为大多数被套的多头正是会在这里出局，从而把市场往下推。这是一次突破回调做空。另外，任何潜在的买方都会等待更多的价格行为，所以市场中只剩卖方，这就构成一笔高概率的做空。空头顺着那一路上出现的熊旗不断加仓，而那些旗形也套住了其他早进场的多头。
 
 
 > The market gapped below yesterday's low in Figure 11.11 and broke out of a large trading range formed over the second half of yesterday (a Head and Shoulders Bear Flag). The first bar today was a bull trend bar, which usually leads to a partial gap closure. Many went long on a stop at one tick above the high of the bull trend bar. However, the market trapped those longs two bars later when it traded below the low of the bull trend signal bar (and the entry bar). Bar 1 provided a great opportunity to go short at one tick below the low of the bull trend bar because this is where most of those trapped longs will get out, driving the market down. It was a Breakout Pullback short. Also, any potential buyers will be waiting for more price action, so there are only sellers in the market, making for a high-probability short. Shorts added on· at the bear flags along that way that trapped other early longs.
@@ -8400,7 +8426,7 @@ DUG，突破失败。第12根K线是一个双顶熊旗；由于缺口很大、�
 > Bar 12 was a Higher Low and led to a breakout an ii pattern. It was also a failed Low 2 in a bear, which trapped bears who saw the big gap down and shorted the second entry (Low 2 gap pullback). Unlike a Double Bottom Pullback that is a reversal pattern, a Double Bottom Bull Flag is a continuation pattern that develops after the bull has already begun. Functionally, it is the same as a Double Bottom Pullback, since both are buy setups.
 
 
-双顶熊旗也是如此：它是空头行情持续展开过程中的延续形态，而不像双顶回调那样是反转形态。不过两者都是做空的建仓形态。一段强劲的下跌加上一次回调之后，空头行情会重新展开。如果市场再次回调到与首次回调大致相同的位置，并且在同一价位附近又遇到卖盘，这个交易区间就是一个双顶熊旗，是一个做空的入场形态。市场两次尝试向上突破某个价位都失败了，这通常会导致市场朝相反方向走，尤其当相反方向就是顺趋势方向时。第二次回调往往会略低于第一次，这在空头趋势里是意料之中的（每一个摆动高点都倾向于低于前一个）。入场方式是在建仓形态K线下方一个 tick 处挂止损单。
+双顶熊旗也是如此：它是空头行情持续展开过程中的延续形态，而不像双顶回调那样是反转形态。不过两者都是做空的建仓形态。一段强劲的下跌加上一次回调之后，空头行情会重新展开。如果市场再次回调到与首次回调大致相同的位置，并且在同一价位附近又遇到卖盘，这个交易区间就是一个双顶熊旗，是一个做空的入场形态。市场两次尝试向上突破某个价位都失败了，这通常会导致市场朝相反方向走，尤其当相反方向就是顺势方向时。第二次回调往往会略低于第一次，这在空头趋势里是意料之中的（每一个摆动高点都倾向于低于前一个）。入场方式是在建仓形态K线下方一个 tick 处挂止损单。
 
 
 > The same is true for Double Top Bear Flags, which are continuation patterns in an ongoing bear and not a reversal pattern, like the Double Top Pullback. Both, however, are short setups. After a strong down move and a pullback, the bear will resume. If the market pulls back again to about the same level as the First Pullback and again finds sellers around the same price, this trading range is a Double Top Bear Flag, and it is a short entry setup. The market made two attempts to go above a price and failed both times and this usually results in the market doing the opposite, especially when the opposite is With Trend. More often than not, the second pullback will be slightly below the first, as would be expected in a bear trend (each swing high tends to be below the prior one). The entry is on a stop at one tick below the setup bar.
@@ -8776,7 +8802,7 @@ GS 那次回调在图 11.22中强势上涨到第1根K线，随后形成了一个
 **图 13.2　AAPL，5分钟图**
 
 
-AAPL 在日线图（缩略图）上处于强多头行情中，并在图 13.2的第1根K线处出现了第一次均线回调，那是一次空头趋势通道过靶（两张图上的编号相同）。日线图上的第2根K线出现了强劲的日内向上反转，收盘接近其高点。想在第2天高点上方一个 tick 处买入是合理的。不过，次日跳空高开于第2天高点之上。与其去冒可能出现一个下跌反转日的风险，更谨慎的做法是等回抽测试缺口之后出现向上反转。
+AAPL 在日线图（缩略图）上处于强多头行情中，并在图 13.2的第1根K线处出现了第一次均线回调，那是一次空头趋势通道过靶（两张图上的编号相同）。日线图上的第2根K线出现了强劲的日内向上反转，收盘接近其高点。想在第2天高点上方一个 tick 处买入是合理的。不过，次日跳空高开于第2天高点之上。与其去冒可能出现一个下跌反转交易日的风险，更谨慎的做法是等回抽测试缺口之后出现向上反转。
 
 
 > AAPL was in a strong bull on the daily chart (thumbnail) and had a first EMA pullback at Bar 1 in Figure 13.2, which was a bear trend channel overshoot (the numbering is the same on both charts). Bar 2 on the daily had a strong intraday reversal up and closed near its high. It was reasonable to want to buy at one tick above the high of Day 2. However, the next day gapped above the Day 2 high. Rather than risk a possible reversal down day, it would be prudent to watch for a reversal up after a pullback test of the gap.
@@ -9482,7 +9508,7 @@ CNBC 上的所有专家一直在说底部已经到了、我们正走在通往新
 > Bar 8 reversed the low of the day, but the move down to Bar 8 was strong, which would require a strong reversal like a strong reversal bar or a second entry. Bar 8 was a bull outside bar, which can be an entry when there are clearly trapped traders. When it is not clear, it is better to wait for more price action.
 
 
-第9根K线是反转那次向新低突破的第二次尝试，是对预期中两段上涨行情的一笔极好入场，也是当天最好的做多建仓形态，在向上到第7根K线的那次强势趋势线突破之后，它很容易被预判到。
+第9根K线是反转那次向新低突破的第二次尝试，是对预期中两段上涨行情的一笔极好入场，也是当天最好的做多建仓形态，在向上到第7根K线的那次强势的趋势线突破之后，它很容易被预判到。
 
 
 > Bar 9 was a second attempt to reverse the breakout to the new low and was a great entry for an expected two-legged move up, and was the best long setup of the day and easily anticipated after the strong trendline break up to Bar 7.
@@ -9860,7 +9886,7 @@ Amazon 处在强劲的日线多头中，但在跌向第5根K线的这波下跌�
 **图 15.13　在一天不是明确趋势日的时候，交易者应着眼于在新极值处反向操作，尤其是二次入场和楔形**
 
 
-图 15.13中的第1根K线是一个带强反转K线的楔形反转。第2根K线是一个楔形顶部。第4根K线是陡峭下跌中的一根十字星，而由于它可能只是一根或两根K线的空头旗形，你需要等第二次入场才能买入。
+图 15.13中的第1根K线是一个带强反转K线的楔形反转。第2根K线是一个楔形顶部。第4根K线是陡峭下跌中的一根十字星，而由于它可能只是一根或两根K线的熊旗，你需要等第二次入场才能买入。
 
 
 > Bar 1 in Figure 15. 13 is a Wedge reversal with a strong reversal bar. Bar 2 is a Wedge top. Bar 4 is a doji in a steep decline and since it might just turn into a one-or two-bar bear flag, you need to wait for a second entry to buy.
@@ -10698,7 +10724,7 @@ Amazon 处在强劲的日线多头中，但在跌向第5根K线的这波下跌�
 > - **ioi** Outside bar with the bars before it and after it having highs below its high and lows above its low. It is often a breakout setup where a trader looks to buy above the inside bar or sell below it.
 
 
-- **leg（行情段）**：一段打破了任意规模趋势线的小型趋势；这个词只在图上至少存在两段时使用。它是更大趋势里的一段较小趋势，可以是一次回调（一段逆势运动），可以是趋势中或横盘市况中的一个波段，也可以是趋势中的一段顺趋势运动——它发生在该趋势内任意两次回调之间。
+- **leg（行情段）**：一段打破了任意规模趋势线的小型趋势；这个词只在图上至少存在两段时使用。它是更大趋势里的一段较小趋势，可以是一次回调（一段逆势运动），可以是趋势中或横盘市况中的一个波段，也可以是趋势中的一段顺势运动——它发生在该趋势内任意两次回调之间。
 
 
 > - **leg** A small trend that breaks a trendline of any size, and the term is used only where there are at least two on the chart. It is any smaller trend that is part of a larger trend, and it can be a pullback (a Countertrend move), a swing in a trend or in a sideways market, or a With Trend move in a trend that occurs between any two pullbacks within the trend.
@@ -11119,7 +11145,7 @@ Amazon 处在强劲的日线多头中，但在跌向第5根K线的这波下跌�
 
 # 附录 A · 核心术语对照表
 
-本表收录《逐棒读图》《趋势篇》《区间篇》《反转篇》四本书共用的 225 个核心术语。
+本表收录《趋势篇》《区间篇》《反转篇》《逐棒读图》四本书共用的 238 个核心术语，四书口径完全一致（趋势日类词条为趋势篇新增，逐棒读图专属词条为逐棒读图新增）。
 「本书用词」是译文里实际使用的说法；「官方中文版用词」一列只填在该版正文中确实检索到的词（空白表示未见，不作推测）；凡两者不同，译文以更不易误读的一版为准，理由写在「说明」里。
 
 | # | English | 本书用词 | 官方中文版用词 | 说明 |
@@ -11144,17 +11170,17 @@ Amazon 处在强劲的日线多头中，但在跌向第5根K线的这波下跌�
 | 18 | outside bar | **外包K线** | 外包K线 |  |
 | 19 | outside up bar | **外包上涨K线** | 外包阳线 | 官方版作「外包阳线」；本译本用「外包上涨K线」——阳线/阴线依赖平台配色，用「上涨/下跌K线」不会误读。 |
 | 20 | outside down bar | **外包下跌K线** | 外包阴线 | 官方版作「外包阴线」；本译本用「外包下跌K线」，理由同上。 |
-| 21 | ii | **ii形态（内包内包）** | 双内包 | 两根连续内包；不要音译 官方版作「双内包」；本译本用「ii形态（内包内包）」——保留图上原标注字母，读者对着图看更快。 |
+| 21 | ii | **ii形态** | 双内包 | 两根连续内包；不要音译。官方版作「双内包」；图上标注就是 ii，正文首现写「ii形态」即可。 |
 | 22 | ioi | **ioi形态** | 内外内 | 内包—外包—内包三段结构 官方版作「内外内」；本译本用「ioi形态」——同上，保留图上标注。 |
 | 23 | barbwire | **铁丝网** | 铁丝网 | 3 根以上重叠K线构成的窄幅区间，含十字星 |
-| 24 | gap | **缺口** | 缺口 |  |
+| 24 | gap | **缺口** | 缺口 | 名词性缺口（测量缺口、突破缺口、衰竭缺口、均线缺口）用「缺口」；开盘语境与动词用法用「跳空」（跳空开盘、跳空低开、补缺口）。 |
 | 25 | gap bar | **缺口K线** | 缺口K线 | 指与均线之间出现缺口的K线（作者特指 EMA gap bar） |
-| 26 | EMA gap bar | **均线缺口K线** | 均线缺口K线 | 收盘价完全位于均线一侧、与均线之间留出缺口的K线 |
+| 26 | EMA gap bar / moving average gap bar | **均线缺口K线** | 均线缺口K线 | 收盘价完全位于均线一侧、与均线之间留出缺口的K线。《逐棒读图》作 EMA gap bar，三部曲作 moving average gap bar，同一概念。 |
 | 27 | micro measuring gap | **微型测量缺口** | 微型测量缺口 | 两根K线之间的空档，是强势信号与测量目标来源 |
 | 28 | trend | **趋势** | 趋势 |  |
 | 29 | bull trend | **多头趋势** | 多头趋势 | 亦可用“上升趋势”，全书统一用多头/空头 |
 | 30 | bear trend | **空头趋势** | 空头趋势 |  |
-| 31 | strong trend | **强趋势** | 强趋势 |  |
+| 31 | strong trend | **强趋势** | 强趋势 | 四书统一「强趋势」。 |
 | 32 | weak trend | **弱趋势** | — |  |
 | 33 | spike | **急速行情** | 急速 | 作者专用词：一波又快又猛的连续K线；不用“尖峰/长钉” 官方版正文多作「急速」；本译本统一「急速行情」，作名词时不与副词用法（急速下跌）混淆。 |
 | 34 | channel | **通道** | 通道 |  |
@@ -11185,7 +11211,7 @@ Amazon 处在强劲的日线多头中，但在跌向第5根K线的这波下跌�
 | 59 | measurement | **测量** | 测量 |  |
 | 60 | breakout | **突破** | 突破 |  |
 | 61 | breakout mode | **突破模式** | 突破模式 | 多空随时可能突破的对峙状态 |
-| 62 | failed breakout | **突破失败** | 突破失败 |  |
+| 62 | failed breakout | **突破失败** | 突破失败 | 四书统一「突破失败」；「失败突破」的写法已全卷替换。 |
 | 63 | breakout pullback | **突破回调** | 突破回调 | 突破后第一次回落，全书高频 |
 | 64 | breakout test | **突破回测** | 回测 | 官方版作「回测」；本译本用「突破回测」，点明回测的是突破位。 |
 | 65 | breakout gap | **突破缺口** | 突破缺口 |  |
@@ -11194,7 +11220,7 @@ Amazon 处在强劲的日线多头中，但在跌向第5根K线的这波下跌�
 | 68 | reversal | **反转** | 反转 |  |
 | 69 | major trend reversal | **主要趋势反转** | 重大趋势反转 | 官方版作「重大趋势反转」；本译本用「主要趋势反转」——原义是级别较大的趋势反转，不是「重要」。 |
 | 70 | minor reversal | **小级别反转** | — |  |
-| 71 | climactic reversal | **高潮反转** | 高潮反转 |  |
+| 71 | climactic reversal / climax reversal | **高潮反转** | 高潮反转 | 高潮之后的急速反转；climactic reversal 与 climax reversal 同义（第 4 章主线）。 |
 | 72 | final flag | **最终旗形** | 末端旗形 | 趋势末段的旗形，突破常常失败并直接反转；不用「末端旗形」。 官方版作「末端旗形」；本译本用「最终旗形」，与本项目另三本一致。 |
 | 73 | flag | **旗形** | 牛旗 | 官方版正文常把 flag 直接译成「牛旗」；本译本统一「旗形」，按方向加多头/空头前缀。 |
 | 74 | bull flag | **牛旗** | 牛旗 |  |
@@ -11208,147 +11234,160 @@ Amazon 处在强劲的日线多头中，但在跌向第5根K线的这波下跌�
 | 82 | trend line break | **趋势线突破** | 趋势线突破 |  |
 | 83 | measured move | **等距运动** | 等距运动 | 按前一段高度/缺口高度测算的目标运动 |
 | 84 | measured move projection | **等距运动目标位** | — |  |
-| 85 | AB=CD | **AB=CD 结构** | — | 测量运动的经典表述 |
-| 86 | trap | **陷阱** | 套住 | 官方版作「套住」；本译本用「陷阱」。 |
-| 87 | trapped | **被套** | 被套 | 被套在场内 / 被关在场外（trapped out） |
+| 85 | AB=CD | **AB = CD** | — | 测量运动的传统叫法；作者明确主张不要使用（趋势篇第 1 章、区间篇第 7 章）。 |
+| 86 | trap | **陷阱** | 套住 | 名词 trap 译「陷阱」（多头陷阱/空头陷阱）；动词 trap traders out 译「把交易者关在场外」。 |
+| 87 | trapped | **被套** | 被套 | trapped 译「被套」（被套的交易者）；trapped out of a trade/trend 译「被关在…之外 / 关在了场外」。 |
 | 88 | failed final flag | **最终旗形失败** | — | 与 final flag（最终旗形）保持一致；不用「末端旗形失败」。 |
-| 89 | always in | **始终入场** | 始终入场 | 作者核心概念：市场始终有一方占优，你必须选边 |
-| 90 | always-in long | **始终做多** | — |  |
-| 91 | always-in short | **始终做空** | — |  |
-| 92 | scalp | **剥头皮** | 刮头皮 | 四书统一：一律作「剥头皮」，不用「刮头皮」。 |
-| 93 | scalper | **剥头皮交易者** | 刮头皮者 | 官方版作「刮头皮者」；本译本用「剥头皮交易者」。 |
+| 89 | always in / always-in | **始终入场** | 始终入场 | 作者核心概念：市场始终有一方占优，你必须选边。原文有 always in 与 always-in 两种写法，指同一概念。 |
+| 90 | always-in long | **始终入场做多** | — | always-in long 作状态名译「始终入场做多」；作方向搭配（flipped to always-in long）四书用「翻成始终做多」，两种写法等价。 |
+| 91 | always-in short | **始终入场做空** | — | 与 always-in long 对称：状态名译「始终入场做空」，方向搭配用「始终做空」。 |
+| 92 | scalp | **剥头皮** | 刮头皮 | 四书统一「剥头皮」；动词式写作「剥一次头皮 / 剥个头皮」。《区间篇》早期误用的「刮头皮 / 刮一次头皮」已全卷替换。 |
+| 93 | scalper | **剥头皮交易者** | 刮头皮者 | 四书统一「剥头皮交易者」；固定搭配 a scalper's profit 译「剥头皮的利润」（如「至少够一次剥头皮的利润」）。 |
 | 94 | swing trade | **波段交易** | 摆动交易 | 官方版作「摆动交易」；本译本用「波段交易」，与 swing（波段）一致。 |
 | 95 | day trade | **日内交易** | 日内交易 |  |
 | 96 | fade | **反向操作** | 逆势交易 | 逆着刚发生的行情做；与“逆势”同源但强调动作 官方版作「逆势交易」；本译本用「反向操作」——fade 特指逆着刚发生的那一段走势入场，不等于泛指的逆势。 |
 | 97 | countertrend | **逆势** | 逆势 |  |
-| 98 | with trend | **顺势** | 顺势 |  |
+| 98 | with trend / with-trend | **顺势** | 顺势 | 与 countertrend（逆趋势）成对。原文有 with trend 与 with-trend 两种写法，指同一概念，四书统一译「顺势」。 |
 | 99 | trading range | **交易区间** | 交易区间 |  |
 | 100 | tight trading range | **窄幅交易区间** | 窄幅交易区间 |  |
-| 101 | buffet | **拉锯区** | — | 作者用于描述反复双向成交的窄区间 |
-| 102 | breakout entry | **突破入场** | 突破入场 |  |
-| 103 | stop | **止损** | 止损 |  |
-| 104 | protective stop | **保护性止损** | 保护性止损 |  |
-| 105 | trailing stop | **移动止损** | 跟踪止损 | 官方版作「跟踪止损」；本译本用「移动止损」。 |
-| 106 | breakeven stop | **保本止损** | — |  |
-| 107 | buy stop | **买入止损单** | — | 挂在现价上方、追涨用的止损单 |
-| 108 | sell stop | **卖出止损单** | — | 挂在现价下方、追跌用的止损单 |
-| 109 | limit order | **限价单** | 限价单 |  |
-| 110 | market order | **市价单** | 市价单 |  |
-| 111 | fill | **成交** | 成交 |  |
-| 112 | position size | **仓位规模** | 仓位 | 官方版作「仓位」；本译本用「仓位规模」，与 position（持仓）区分。 |
-| 113 | scaling in | **分批建仓** | 分批建仓 |  |
-| 114 | scaling out | **分批止盈** | — |  |
-| 115 | adding | **加仓** | 加仓 |  |
-| 116 | taking profits | **止盈** | 止盈 |  |
-| 117 | profit target | **止盈目标** | 目标位 | 官方版作「目标位」；本译本用「止盈目标」。 |
-| 118 | risk-reward | **风险回报比** | — |  |
-| 119 | trader's equation | **交易者等式** | 交易者等式 | 概率×回报 vs 概率×风险；官方中文版同 |
-| 120 | directional probability | **方向概率** | 方向概率 |  |
-| 121 | the math | **数学期望** | — | “the math is on their side” = 数学期望站在他们一边 |
-| 122 | edge | **优势** | 先机 | 官方版作「先机」；本译本用「优势」——指交易者等式里的统计优势。 |
-| 123 | blown account | **爆仓** | 爆仓 |  |
-| 124 | time frame | **时间级别** | 时间级别 |  |
-| 125 | 5-minute chart | **5分钟图** | 5分钟图 |  |
-| 126 | daily chart | **日线图** | 日线图 |  |
-| 127 | weekly chart | **周线图** | 周线图 |  |
-| 128 | chart type | **走势图类型** | 走势图类型 |  |
-| 129 | tick | **最小报价单位** | 最小报价单位 | 亦作“跳动点”；指成交笔数时保留 tick 并加注 |
-| 130 | Time and Sales | **成交明细** | — |  |
-| 131 | opening range | **开盘区间** | 开盘区间 |  |
-| 132 | first hour | **头一个小时** | 头一个小时 |  |
-| 133 | premarket | **盘前** | 盘前 |  |
-| 134 | postmarket | **盘后** | 盘后 |  |
-| 135 | overnight | **隔夜** | — |  |
-| 136 | Globex | **Globex 电子盘** | — | 保留英文 + 中文说明 |
-| 137 | Emini | **Emini 小型合约** | Emini | 正文首次出现加注 官方版保留「Emini」；本译本首现作「Emini 小型合约」，其后沿用 Emini。 |
-| 138 | 10-Year U.S. Treasury Note Futures | **十年期美国国债期货** | — |  |
-| 139 | TradeStation | **TradeStation** | — | 软件名保留英文 |
-| 140 | FDA | **FDA** | — | 机构缩写保留 |
-| 141 | institutional | **机构** | 机构 |  |
-| 142 | piggybacking | **搭机构便车** | — | 跟随机构方向交易 |
-| 143 | fundamentals | **基本面** | 基本面 |  |
-| 144 | news | **消息面** | 新闻 | 官方版作「新闻」；本译本用「消息面」，覆盖新闻与突发数据。 |
-| 145 | volatility | **波动性** | — |  |
-| 146 | bull | **多头** | 多头 |  |
-| 147 | bear | **空头** | 空头 |  |
-| 148 | buying pressure | **买压** | 买压 |  |
-| 149 | selling pressure | **卖压** | 抛压 | 官方版作「抛压」；本译本用「卖压」，与 buying pressure（买压）成对。 |
-| 150 | follow-through | **后续行情** | 跟随 | 突破后是否有跟随；不要译“贯穿” 官方版作「跟随」；本译本用「后续行情」——指突破/信号之后真正走出来的那一段。 |
-| 151 | second entry | **二次入场** | 二次入场点 | 官方版作「二次入场点」；本译本用「二次入场」。 |
-| 152 | late entry | **迟到的入场** | — |  |
-| 153 | missed entry | **错过的入场** | — |  |
-| 154 | vacuum | **价格真空** | 真空 | 价格快速穿越无成交区 官方版作「真空」；本译本用「价格真空」，点明是价格快速穿越的现象。 |
-| 155 | thin market | **流动性稀薄** | — |  |
-| 156 | panic | **恐慌** | 恐慌 |  |
-| 157 | news-driven | **消息驱动** | — |  |
-| 158 | higher high | **更高的高点** | 高点更高 | 与 lower high 成对使用；写成「更高的高点」而不是「较高高点」，避免与「较高」的模糊比较混淆。 官方版作「高点更高」；本译本用「更高的高点」，与另三本统一。 |
-| 159 | lower high | **更低的高点** | 高点下降 | 空头反转里最关键的测试形态；与 double top 并列出现时写成「更低的高点（lower high）」。 官方版作「高点下降」；本译本用「更低的高点」，与另三本统一。 |
-| 160 | higher low | **更高的低点** | 低点更高 | 官方版作「低点更高」；本译本用「更高的低点」，与另三本统一。 |
-| 161 | lower low | **更低的低点** | 低点下降 | 官方版作「低点下降」；本译本用「更低的低点」，与另三本统一。 |
-| 162 | higher high major trend reversal | **更高的高点主要趋势反转** | — | 先创新高再反转下跌，是主要趋势反转的第一种测试方式。 |
-| 163 | lower high major trend reversal | **更低的高点主要趋势反转** | — | 先形成更低的高点再反转下跌，是主要趋势反转的第二种测试方式，也是第二次做空机会。 |
-| 164 | reversal bar | **反转K线** | 反转K线 | 收盘靠近一端、影线在另一端；本书把「反转K线」与「信号K线」分开讲，前者描述形态，后者描述用途。 |
-| 165 | trend reversal | **趋势反转** | 趋势反转 |  |
-| 166 | trend reversal attempt | **趋势反转尝试** | — | 多数尝试会失败并变成旗形，译文必须保留 attempt 的「尝试」含义。 |
-| 167 | micro double top | **微型双顶** | 微型双顶 | 两根K线构成的双顶，无需中间回撤。 |
-| 168 | micro double bottom | **微型双底** | 微型双底 |  |
-| 169 | parabolic wedge | **抛物线楔形** | — | 三推加速、斜率越来越陡的楔形，常以急速反转收场。 |
-| 170 | expanding triangle | **扩张三角形** | — | 官方译本用「扩散三角形」；本书用「扩张三角形」是因为术语本身描述通道被打开（expanding），与「扩散」的泛化含义区分。 |
-| 171 | opening reversal | **开盘反转** | 开盘反转 | 开盘后第一根到前几根K线形成的反转，常与开盘区间一起讨论。 |
-| 172 | gap opening | **跳空开盘** | — |  |
-| 173 | day trading | **日内交易** | 日内交易 |  |
-| 174 | extreme scalping | **极端剥头皮** | — | 指 1 分钟图上抢 1~2 个 tick 的操作；「剥头皮」直译 scalp 的目标动作，比「极端短线」更能与普通短线区分。 |
-| 175 | climactic top | **高潮顶部** | — | buy climax 之后形成的高点。 |
-| 176 | climactic bottom | **高潮底部** | — | sell climax 之后形成的低点。 |
-| 177 | climax reversal | **高潮反转** | 高潮反转 |  |
-| 178 | sell vacuum | **下跌真空** | — | 价格在几乎没有买盘的情况下被快速抽下去。 |
-| 179 | buy vacuum | **上涨真空** | — |  |
-| 180 | spike and climax | **急速行情与高潮** | — | spike and channel 的变体，通道部分以高潮行情收尾。 |
-| 181 | trend channel | **趋势通道** | 趋势通道 |  |
-| 182 | channel line | **通道线** | 通道线 | 与 trend line（趋势线）并列；趋势通道的另一侧边界。 |
-| 183 | one-tick trap | **一个 tick 的陷阱** | — | 指价格只差一个 tick 没触发、让追单者被套的情形；「一个 tick 的陷阱」保留原文的量度。 |
-| 184 | five-tick failure | **五个 tick 的失败** | — | Emini 剥头皮里最常见的「差五个 tick 没到目标」。 |
-| 185 | always-in | **始终入场** | 始终入场 | 与《区间篇》已锁定的 always in = 始终入场 保持一致；本书常写 always-in position（始终入场方向）。 |
-| 186 | always-in position | **始终入场方向** | — | 做多、做空或空仓的判断，随行情变化。 |
-| 187 | initial risk | **初始风险** | 初始风险 | 入场时的止损距离。 |
-| 188 | actual risk | **实际风险** | — | 移动止损之后的真实风险，常比初始风险小；两者不能混用。 |
-| 189 | with-trend | **顺趋势** | — | 与 countertrend（逆趋势）成对；写「顺趋势」是为了与「顺势交易」这类泛用语区分。 |
-| 190 | trending trading range | **趋势性交易区间** | 趋势性交易区间 | 区间整体带方向，本书用它解释很多「看起来像趋势」的形态。 |
-| 191 | head and shoulders | **头肩形态** | — | 本书强调绝大多数头肩形态会失败并变成旗形，所以译名保持中性「头肩形态」。 |
-| 192 | moving average gap | **均线缺口** | 均线缺口 | 均线缺口K线形成的缺口。 |
-| 193 | moving average gap bar | **均线缺口K线** | 均线缺口K线 |  |
-| 194 | failure | **失败形态** | 失败形态 | 本书第 9 章标题；指突破、信号或目标未能兑现，译文用「失败形态/失败」，避免译成「错误」。 |
-| 195 | day session | **日盘** | — |  |
-| 196 | overnight session | **隔夜盘** | — |  |
-| 197 | options | **期权** | 期权 | 本书第 23 章主题。 |
-| 198 | option premium | **期权权利金** | — | 「权利金」是中文交易圈的通行说法。 |
-| 199 | strike price | **行权价** | — |  |
-| 200 | expiration | **到期日** | — |  |
-| 201 | implied volatility | **隐含波动率** | — |  |
-| 202 | bar by bar | **逐棒** | — | 本书书名与核心读图方式：一根一根K线读，不跳读。 |
-| 203 | reading price charts bar by bar | **逐棒读图** | — | 书名直译口径；正文出现时统一「逐棒读图」。 |
-| 204 | trend from the open | **开盘即趋势** | 开盘即是趋势 | 开盘后不久就形成的单向行情（第 11 章主线）；不要译成「从开盘开始的趋势」。 |
-| 205 | trend from the first bar | **第一根K线即趋势** | — | 开盘第一根K线就确立了方向，比 trend from the open 更强。 |
-| 206 | micro trendline | **微型趋势线** | — | 两三根K线连成的陡直趋势线（第 2 章）；与 micro channel（微型通道）并列。 |
-| 207 | horizontal line | **水平线** | — | 由摆动点或关键价位画出的水平参考线。 |
-| 208 | swing point | **摆动点** | — | 构成趋势线的端点（swing high/low 的统称）。 |
-| 209 | shaved top | **平顶** | 呲牙顶 | K线高位几乎没有影线（收盘即最高）；作者用它说明买方不给机会。官方版作「呲牙顶」，本译本用「平顶」更直白。 |
-| 210 | shaved bottom | **平底** | — | K线低位几乎没有影线（收盘即最低），与 shaved top 成对。 |
-| 211 | shaved body | **平实体** | — | 开收盘贴着K线端部、影线极短。 |
-| 212 | failed failure | **失败后的失败** | — | 突破失败之后、失败本身再失败，价格回到原方向（第 9 章核心形态）。 |
-| 213 | 2HM | **2HM（两小时未触均线）** | — | 2 hours of no EMA touch；强趋势标志，首现加中文说明，其后沿用 2HM。 |
-| 214 | trading guidelines | **交易准则** | — | 书末的 39 条交易准则；与「规则」区分（作者强调没有规则）。 |
-| 215 | best trades | **最佳交易** | — | 第 15 章主题：只做最好的那几类交易。 |
-| 216 | inverse chart | **反向走势图** | — | 把标的走势倒过来画（用于看清原始方向的强弱），第 1 章 ETF 部分。 |
-| 217 | ETF | **交易所交易基金（ETF）** | — | 首现给出全称，其后沿用 ETF。 |
-| 218 | SPY | **SPY（标普 500 的 ETF）** | — | 首现加注，其后沿用 SPY。 |
-| 219 | QQQQ | **QQQQ（纳斯达克 100 的 ETF）** | — | 首现加注，其后沿用 QQQQ。 |
-| 220 | print | **打印稿** | — | 作者常让读者「收盘后看打印稿」，指当天走完的静态图。 |
-| 221 | contract | **合约** | — | 期货/期权的成交单位。 |
-| 222 | point | **点** | — | 价格单位；不同品种一点的价值不同，文中保留原值。 |
-| 223 | Fibonacci | **斐波那契** | — | 回撤/扩展比例（38.2%、50%、61.8% 等）。 |
-| 224 | Elliott Wave | **艾略特波浪** | — | 作者明确说对交易者不实用，译文照译但保持中性。 |
-| 225 | margin | **保证金** | — | 含杠杆交易所需的资金。 |
+| 101 | breakout entry | **突破入场** | 突破入场 |  |
+| 102 | stop | **止损** | 止损 |  |
+| 103 | protective stop | **保护性止损** | 保护性止损 |  |
+| 104 | trailing stop | **移动止损** | 跟踪止损 | 官方版作「跟踪止损」；本译本用「移动止损」。 |
+| 105 | breakeven stop | **保本止损** | — |  |
+| 106 | buy stop | **买入止损单** | — | 挂在现价上方、追涨用的止损单 |
+| 107 | sell stop | **卖出止损单** | — | 挂在现价下方、追跌用的止损单 |
+| 108 | limit order | **限价单** | 限价单 |  |
+| 109 | market order | **市价单** | 市价单 |  |
+| 110 | fill | **成交** | 成交 | fill an order 译「成交」；fill a gap 译「回补缺口」。 |
+| 111 | position size | **仓位规模** | 仓位 | 官方版作「仓位」；本译本用「仓位规模」，与 position（持仓）区分。 |
+| 112 | scaling in | **分批建仓** | 分批建仓 |  |
+| 113 | scaling out | **分批止盈** | — |  |
+| 114 | adding | **加仓** | 加仓 |  |
+| 115 | taking profits | **止盈** | 止盈 |  |
+| 116 | profit target | **止盈目标** | 目标位 | 官方版作「目标位」；本译本用「止盈目标」。 |
+| 117 | risk-reward | **风险回报比** | — |  |
+| 118 | trader's equation | **交易者等式** | 交易者等式 | 概率×回报 vs 概率×风险；官方中文版同 |
+| 119 | directional probability | **方向概率** | 方向概率 |  |
+| 120 | the math | **数学期望** | — | “the math is on their side” = 数学期望站在他们一边；作动词短语（do the math）时译「算一遍」，作名词（think about the math）时译「数学」。 |
+| 121 | edge | **优势** | 先机 | 官方版作「先机」；本译本用「优势」——指交易者等式里的统计优势。 |
+| 122 | blown account | **爆仓** | 爆仓 |  |
+| 123 | time frame | **时间级别** | 时间级别 |  |
+| 124 | 5-minute chart | **5分钟图** | 5分钟图 |  |
+| 125 | daily chart | **日线图** | 日线图 |  |
+| 126 | weekly chart | **周线图** | 周线图 |  |
+| 127 | chart type | **走势图类型** | 走势图类型 |  |
+| 128 | tick | **最小报价单位** | 最小报价单位 | 价格的最小变动单位。三部曲统一「最小报价单位」；《逐棒读图》因原书第 1 章专门辨析 tick 的两个含义（最小价格变动 / 一笔成交）而保留 tick 原词并加注。 |
+| 129 | Time and Sales | **成交明细** | — |  |
+| 130 | opening range | **开盘区间** | 开盘区间 |  |
+| 131 | first hour | **头一个小时** | 头一个小时 |  |
+| 132 | premarket | **盘前** | 盘前 |  |
+| 133 | postmarket | **盘后** | 盘后 |  |
+| 134 | overnight | **隔夜** | — |  |
+| 135 | Globex | **Globex 电子盘** | — | 保留英文 + 中文说明 |
+| 136 | Emini | **Emini 小型合约** | Emini | 正文首次出现加注 官方版保留「Emini」；本译本首现作「Emini 小型合约」，其后沿用 Emini。 |
+| 137 | 10-Year U.S. Treasury Note Futures | **十年期美国国债期货** | — |  |
+| 138 | TradeStation | **TradeStation** | — | 软件名保留英文 |
+| 139 | FDA | **FDA** | — | 机构缩写保留 |
+| 140 | institutional | **机构** | 机构 |  |
+| 141 | piggybacking | **搭机构便车** | — | 跟随机构方向交易 |
+| 142 | fundamentals | **基本面** | 基本面 |  |
+| 143 | news | **消息面** | 新闻 | 作者术语：媒体制造的无用信息，永远应当忽略（消息面）。指新闻服务/新闻报道本身时译「新闻」。 |
+| 144 | volatility | **波动性** | — |  |
+| 145 | bull | **多头** | 多头 |  |
+| 146 | bear | **空头** | 空头 |  |
+| 147 | buying pressure | **买压** | 买压 |  |
+| 148 | selling pressure | **卖压** | 抛压 | 官方版作「抛压」；本译本用「卖压」，与 buying pressure（买压）成对。 |
+| 149 | follow-through | **后续行情** | 跟随 | follow-through 译「后续行情」；作定语时写「后续买入 / 后续卖出 / 后续K线（follow-through bar）」。 |
+| 150 | second entry | **二次入场** | 二次入场点 | 官方版作「二次入场点」；本译本用「二次入场」。 |
+| 151 | late entry | **迟到的入场** | — |  |
+| 152 | missed entry | **错过的入场** | 错过的入场 |  |
+| 153 | vacuum | **价格真空** | 真空 | 价格快速穿越无成交区 官方版作「真空」；本译本用「价格真空」，点明是价格快速穿越的现象。 |
+| 154 | thin market | **流动性稀薄** | — |  |
+| 155 | panic | **恐慌** | 恐慌 |  |
+| 156 | higher high | **更高的高点** | 高点更高 | 与 lower high 成对使用；写成「更高的高点」而不是「较高高点」，避免与「较高」的模糊比较混淆。 官方版作「高点更高」；本译本用「更高的高点」，与另三本统一。 |
+| 157 | lower high | **更低的高点** | 高点下降 | 空头反转里最关键的测试形态；与 double top 并列出现时写成「更低的高点（lower high）」。 官方版作「高点下降」；本译本用「更低的高点」，与另三本统一。 |
+| 158 | higher low | **更高的低点** | 低点更高 | 官方版作「低点更高」；本译本用「更高的低点」，与另三本统一。 |
+| 159 | lower low | **更低的低点** | 低点下降 | 官方版作「低点下降」；本译本用「更低的低点」，与另三本统一。 |
+| 160 | higher high major trend reversal | **更高的高点主要趋势反转** | — | 先创新高再反转下跌，是主要趋势反转的第一种测试方式。 |
+| 161 | lower high major trend reversal | **更低的高点主要趋势反转** | — | 先形成更低的高点再反转下跌，是主要趋势反转的第二种测试方式，也是第二次做空机会。 |
+| 162 | reversal bar | **反转K线** | 反转K线 | 收盘靠近一端、影线在另一端；本书把「反转K线」与「信号K线」分开讲，前者描述形态，后者描述用途。 |
+| 163 | trend reversal | **趋势反转** | 趋势反转 |  |
+| 164 | trend reversal attempt | **趋势反转尝试** | — | 多数尝试会失败并变成旗形，译文必须保留 attempt 的「尝试」含义。 |
+| 165 | micro double top | **微型双顶** | 微型双顶 | 两根K线构成的双顶，无需中间回撤。 |
+| 166 | micro double bottom | **微型双底** | 微型双底 |  |
+| 167 | parabolic wedge | **抛物线楔形** | — | 三推加速、斜率越来越陡的楔形，常以急速反转收场。 |
+| 168 | expanding triangle | **扩张三角形** | — | 官方译本用「扩散三角形」；本书用「扩张三角形」是因为术语本身描述通道被打开（expanding），与「扩散」的泛化含义区分。 |
+| 169 | opening reversal | **开盘反转** | 开盘反转 | 开盘后第一根到前几根K线形成的反转，常与开盘区间一起讨论。 |
+| 170 | gap opening | **跳空开盘** | — |  |
+| 171 | day trading | **日内交易** | 日内交易 |  |
+| 172 | extreme scalping | **极端剥头皮** | — | 指 1 分钟图上抢 1~2 个 tick 的操作；「剥头皮」直译 scalp 的目标动作，比「极端短线」更能与普通短线区分。 |
+| 173 | climactic top | **高潮顶部** | — | buy climax 之后形成的高点。 |
+| 174 | climactic bottom | **高潮底部** | — | sell climax 之后形成的低点。 |
+| 175 | sell vacuum | **下跌真空** | — | 四书统一「下跌真空」；《区间篇》早期用的「卖出真空」已全卷替换。 |
+| 176 | buy vacuum | **上涨真空** | — | 四书统一「上涨真空」；《区间篇》早期用的「买入真空」已全卷替换。 |
+| 177 | spike and climax | **急速行情与高潮** | — | spike and channel 的变体，通道部分以高潮行情收尾。 |
+| 178 | trend channel | **趋势通道** | 趋势通道 |  |
+| 179 | channel line | **通道线** | 通道线 | 与 trend line（趋势线）并列；趋势通道的另一侧边界。 |
+| 180 | one-tick trap | **一个 tick 的陷阱** | — | 指价格只差一个 tick 没触发、让追单者被套的情形；「一个 tick 的陷阱」保留原文的量度。 |
+| 181 | five-tick failure | **五个 tick 的失败** | — | Emini 剥头皮里最常见的「差五个 tick 没到目标」。 |
+| 182 | always-in position | **始终入场方向** | — | 做多、做空或空仓的判断，随行情变化。 |
+| 183 | initial risk | **初始风险** | 初始风险 | 入场时的止损距离。 |
+| 184 | actual risk | **实际风险** | — | 移动止损之后的真实风险，常比初始风险小；两者不能混用。 |
+| 185 | trending trading range | **趋势性交易区间** | 趋势性交易区间 | 区间整体带方向，本书用它解释很多「看起来像趋势」的形态。 |
+| 186 | head and shoulders | **头肩形态** | — | 本书强调绝大多数头肩形态会失败并变成旗形，所以译名保持中性「头肩形态」；具体写成头肩顶/头肩底时同样命中。 |
+| 187 | moving average gap | **均线缺口** | 均线缺口 | 均线缺口K线形成的缺口。 |
+| 188 | failure | **失败形态** | 失败形态 | 作者术语：任何没有达到目标的交易。作术语时译「失败形态」（第 9 章标题），作一般叙述时译「失败」（如「突破的失败」）。 |
+| 189 | day session | **日盘** | — |  |
+| 190 | overnight market / overnight session | **隔夜市场** | — | 《逐棒读图》第 10 章与《反转篇》第 14 章标题作「Globex 电子盘、盘前、盘后，以及隔夜市场」。 |
+| 191 | options | **期权** | 期权 | 本书第 23 章主题。 |
+| 192 | option premium | **期权权利金** | — | 「权利金」是中文交易圈的通行说法。 |
+| 193 | strike price | **行权价** | — |  |
+| 194 | expiration | **到期日** | — | 期权到期日；作动词/介词短语时写「到期」（一个月后到期的看涨期权）。 |
+| 195 | bar by bar | **逐棒** | — | 《逐棒读图》书名与核心读图方式：一根一根K线读，不跳读。 |
+| 196 | reading price charts bar by bar | **逐棒读图** | — | 书名直译口径；正文出现时统一「逐棒读图」。 |
+| 197 | trend from the open | **开盘即趋势** | 始于开盘的趋势 | 四书统一「开盘即趋势」（如「开盘即趋势日」）；带方向时写「开盘即多头趋势 / 开盘即空头趋势」。「始于开盘」「从开盘开始」的写法已全卷替换。官方中文版作「始于开盘」。 |
+| 198 | trend from the first bar | **第一根K线即趋势** | — | 开盘第一根K线就确立了方向，比 trend from the open 更强。 |
+| 199 | micro trendline | **微型趋势线** | 微型趋势线 | 两三根K线连成的陡直趋势线（第 2 章）；与 micro channel（微型通道）并列。 |
+| 200 | horizontal line | **水平线** | 水平线 | 由摆动点或关键价位画出的水平参考线。 |
+| 201 | swing point | **摆动点** | 摆动点 | 构成趋势线的端点（swing high/low 的统称）。 |
+| 202 | shaved top | **平顶** | — | K线高位几乎没有影线（收盘即最高）；作者用它说明买方不给机会。官方版作「呲牙顶」，本译本用「平顶」更直白。 |
+| 203 | shaved bottom | **平底** | — | K线低位几乎没有影线（收盘即最低），与 shaved top 成对。 |
+| 204 | shaved body | **平实体** | 光K线 | 开收盘贴着K线端部、影线极短。 |
+| 205 | failed failure | **失败后的失败** | 失败的假突破 | 突破失败之后、失败本身再失败，价格回到原方向（第 9 章核心形态）。 |
+| 206 | 2HM | **2HM（两小时未触均线）** | — | 2 hours of no EMA touch；强趋势标志，首现加中文说明，其后沿用 2HM。 |
+| 207 | trading guidelines | **交易准则** | — | 书末的交易准则：《逐棒读图》39 条、《反转篇》第 25 章 78 条；与「规则」区分（作者强调没有规则）。 |
+| 208 | best trades | **最佳交易** | 最佳交易 | 《逐棒读图》第 15 章主题：只做最好的那几类交易。 |
+| 209 | inverse chart | **反向走势图** | — | 把标的走势倒过来画（用于看清原始方向的强弱），第 1 章 ETF 部分。 |
+| 210 | ETF | **ETF** | ETF | 首现可写「交易所交易基金（ETF）」，其后一律沿用 ETF。 |
+| 211 | SPY | **SPY** | SPY | 首现可括注「标普 500 的 ETF」，其后沿用 SPY（第 9 章）。 |
+| 212 | QQQQ | **QQQQ（纳斯达克100的 ETF）** | — | 首现加注，其后沿用 QQQQ。 |
+| 213 | print | **打印稿** | — | 作者常让读者「收盘后看打印稿」，指当天走完的静态图。 |
+| 214 | contract | **合约** | 合约 | 期货/期权的成交单位。 |
+| 215 | point | **点** | 点 | 价格单位；不同品种一点的价值不同，文中保留原值。 |
+| 216 | Fibonacci | **斐波那契** | 斐波那契 | 回撤/扩展比例（38.2%、50%、61.8% 等）。 |
+| 217 | Elliott Wave | **艾略特波浪** | 艾略特波浪 | 作者明确说对交易者不实用，译文照译但保持中性。 |
+| 218 | margin | **保证金** | — | 含杠杆交易所需的资金。 |
+| 219 | trending trading range day | **趋势性交易区间日** | 趋势性交易区间交易日 | 区间整体带方向、逐级抬升/下移的那种趋势日（第 22 章）。官方版作「趋势性交易区间交易日」。 |
+| 220 | spike and channel trend day | **急速与通道趋势日** | 急速与通道趋势 | 开盘一段急速行情 + 随后缓倾通道的趋势日（趋势篇第 21 章）。 |
+| 221 | reversal day | **反转交易日** | 反转交易日 | 先朝一个方向走、尾盘反转并收在反方向的趋势日（趋势篇第 24 章）。 |
+| 222 | trend resumption day | **趋势恢复交易日** | 趋势恢复交易日 | 开盘走强、日中长时间横盘、尾盘恢复原趋势（趋势篇第 25 章）。 |
+| 223 | stairs day | **楼梯形态交易日** | 楼梯形态 | 宽幅通道式趋势日，至少三个交易区间、逐级推进（趋势篇第 26 章）。 |
+| 224 | small pullback trend | **小幅回调趋势** | 小幅回调趋势 | 回撤极浅的趋势，几乎每根K线都被追买/追卖（趋势篇第 23 章）。四书统一「小幅回调趋势」，不用「小幅回撤趋势」；pullback 全书译「回调」。 |
+| 225 | signs of strength | **强势特征** | — | 趋势强弱的一整套判据（趋势篇第 19 章标题）。不要译成「强势信号」，那是信号K线的语境；叙述句里的「强势的迹象」同样命中。 |
+| 226 | two legs | **两段式行情** | 两段式行情 | 市场总想对某个动作做两次：绝大多数走势分成两段（第 20 章）。 |
+| 227 | pattern evolution | **形态演变** | 形态演变 | 小形态演变成大形态、牛旗演变成熊旗等（第 12 章）。 |
+| 228 | spectrum of price action | **价格行为的光谱** | — | 从极端趋势到极端交易区间的一整条光谱（第 1 章标题）。本卷正文用「光谱」，故锁定；「谱系」不再使用。 |
+| 229 | inertia | **惯性** | — | 市场倾向于继续做它刚刚在做的事（第 1 章）。 |
+| 230 | triple witching day | **三重巫日** | — | 股指期货、期权与个股期权同时到期的日子（第 9 章）——ETF 当天常有跳空调整。 |
+| 231 | trend day | **趋势日** | — | 全天以单边行情为主的交易日；与交易区间日相对。四书统一「趋势日」（复合日名如「反转交易日」「趋势恢复交易日」保留）。 |
+| 232 | broad channel | **宽幅通道** | — | 两线之间来回摆动的宽通道，楼梯形态的基础（第 26 章）。 |
+| 233 | always-in mode | **始终入场模式** | — | 市场逼你在多空之间二选一的状态（始终入场方向的判定场合）。 |
+| 234 | money stop | **金额止损** | 金额止损 | 按美元金额（而不是几个 tick）设的止损——第 7 章强调的一种止损口径。 |
+| 235 | one-legged | **一段式** | — | 只有一段、没有形成第二段的走势；与「两段式回调」成对，故锁「一段式」而非「单段式」。 |
+| 236 | tail | **影线** | 两端影线 | K线实体以外的上/下延伸部分。四书统一「影线」；《趋势篇》第 4–6 章、《反转篇》第 9 章早期误用的「尾巴」已全卷替换（《逐棒读图》第 1 章的译注保留「尾巴」以说明作者用词）。 |
+| 237 | shaved bar | **平顶平底K线** | 光头K线 | 一端或两端几乎没有影线的K线：顶部无影线为平顶、底部无影线为平底；shaved body 另译「平实体」。四书统一「平顶平底K线」。 |
+| 238 | 20 moving average gap bars / 20 gap bar | **20根均线缺口K线** | 20根均线缺口K线 | 连续 20 根或更多 K 线未触碰均线，之后首次回调到均线所形成的顺势建仓形态；原文常简写作 20 gap bar。更一般的 moving average gap bar 仍译「均线缺口K线」。 |
 
 
 # 附录 B · 图内标注对照表
@@ -11464,7 +11503,7 @@ Amazon 处在强劲的日线多头中，但在跌向第5根K线的这波下跌�
 
 **外包下跌K线**（outside down bar）　第1章
 
-**ii形态（内包内包）**（ii）　第1章、第8章、第9章、第10章、第11章、第12章、第15章、术语表
+**ii形态**（ii）　第1章、第8章、第9章、第10章、第11章、第12章、第15章、术语表
 
 **ioi形态**（ioi）　第1章
 
@@ -11474,7 +11513,7 @@ Amazon 处在强劲的日线多头中，但在跌向第5根K线的这波下跌�
 
 **缺口K线**（gap bar）　第1章、第3章、第4章、第8章、第11章、第15章
 
-**均线缺口K线**（EMA gap bar）　第1章、第3章、第4章、第8章、第11章
+**均线缺口K线**（EMA gap bar / moving average gap bar）　第1章、第3章、第4章、第8章、第11章
 
 **趋势**（trend）　前言、第1章、第2章、第3章、第4章、第5章、第6章、第7章、第8章、第9章、第10章、第11章、第12章、第13章、第14章、第15章、交易准则、术语表、作者简介
 
@@ -11544,7 +11583,7 @@ Amazon 处在强劲的日线多头中，但在跌向第5根K线的这波下跌�
 
 **小级别反转**（minor reversal）　第9章
 
-**高潮反转**（climactic reversal）　第8章
+**高潮反转**（climactic reversal / climax reversal）　第8章
 
 **最终旗形**（final flag）　第1章、第2章、第4章、第8章、第9章、第10章、第11章、第15章
 
@@ -11570,13 +11609,13 @@ Amazon 处在强劲的日线多头中，但在跌向第5根K线的这波下跌�
 
 **等距运动**（measured move）　第4章、第7章、第8章、第13章
 
-**陷阱**（trap）　第1章、第3章、第4章、第5章、第8章、第9章、第11章
+**陷阱**（trap）　第1章、第3章、第4章、第5章、第8章、第9章、第11章、第15章、交易准则
 
-**被套**（trapped）　第1章、第4章、第5章、第8章、第9章、第10章、第11章、交易准则
+**被套**（trapped）　第1章、第3章、第4章、第5章、第8章、第9章、第10章、第11章、第15章、交易准则
 
 **最终旗形失败**（failed final flag）　第1章、第4章、第8章、第9章、第10章、第11章、第15章
 
-**始终入场**（always in）　第10章
+**始终入场**（always in / always-in）　第10章
 
 **剥头皮**（scalp）　第1章、第2章、第3章、第4章、第5章、第6章、第7章、第8章、第9章、第10章、第11章、第15章、交易准则、术语表
 
@@ -11590,7 +11629,7 @@ Amazon 处在强劲的日线多头中，但在跌向第5根K线的这波下跌�
 
 **逆势**（countertrend）　第1章、第2章、第3章、第4章、第7章、第8章、第9章、第10章、第11章、第13章、第15章、交易准则、术语表
 
-**顺势**（with trend）　第1章、第2章、第3章、第4章、第5章、第6章、第7章、第8章、第9章、第10章、第11章、第15章、交易准则、术语表
+**顺势**（with trend / with-trend）　第1章、第2章、第3章、第4章、第5章、第6章、第7章、第8章、第9章、第10章、第11章、第15章、交易准则、术语表
 
 **交易区间**（trading range）　前言、第1章、第2章、第3章、第4章、第5章、第7章、第8章、第9章、第10章、第11章、第12章、第13章、第14章、第15章、交易准则、术语表
 
@@ -11606,7 +11645,7 @@ Amazon 处在强劲的日线多头中，但在跌向第5根K线的这波下跌�
 
 **限价单**（limit order）　第9章、第10章
 
-**成交**（fill）　前言、第1章、第2章、第3章、第7章、第8章、第9章、第10章、第11章、第13章、第14章、第15章、交易准则、术语表
+**成交**（fill）　前言、第1章、第2章、第3章、第4章、第7章、第8章、第9章、第10章、第11章、第13章、第14章、第15章、交易准则、术语表
 
 **仓位规模**（position size）　第1章、第3章、第4章、第6章、第8章、第9章、第10章、第11章、第13章、第14章、第15章、交易准则
 
@@ -11620,7 +11659,7 @@ Amazon 处在强劲的日线多头中，但在跌向第5根K线的这波下跌�
 
 **风险回报比**（risk-reward）　前言
 
-**数学期望**（the math）　交易准则
+**数学期望**（the math）　前言、第8章、交易准则
 
 **优势**（edge）　前言
 
@@ -11678,25 +11717,19 @@ Amazon 处在强劲的日线多头中，但在跌向第5根K线的这波下跌�
 
 **日内交易**（day trading）　前言、第1章、第10章、第13章、第14章
 
-**高潮反转**（climax reversal）　第8章
-
 **趋势通道**（trend channel）　第1章、第2章、第3章、第4章、第8章、第9章、第10章、第11章、第12章、第13章、第14章、第15章、术语表
 
 **通道线**（channel line）　第1章、第2章、第3章、第4章、第8章、第9章、第10章、第11章、第12章、第13章、第14章、第15章、术语表
 
 **五个 tick 的失败**（five-tick failure）　第10章
 
-**始终入场**（always-in）　第10章
-
 **趋势性交易区间**（trending trading range）　第3章、第8章、第10章、第11章
 
-**头肩形态**（head and shoulders）　第8章、第9章
+**头肩形态**（head and shoulders）　第4章、第8章、第9章、第13章
 
 **均线缺口**（moving average gap）　第1章、第3章、第4章、第8章、第11章、第15章
 
-**均线缺口K线**（moving average gap bar）　第1章、第3章、第4章、第8章、第11章
-
-**失败形态**（failure）　第1章、第3章、第4章、第5章、第9章、第11章
+**失败形态**（failure）　前言、第1章、第2章、第3章、第4章、第5章、第6章、第7章、第8章、第9章、第10章、第11章、第12章、第13章、第15章、交易准则、术语表
 
 **日盘**（day session）　第10章、第11章
 
@@ -11720,8 +11753,26 @@ Amazon 处在强劲的日线多头中，但在跌向第5根K线的这波下跌�
 
 **最佳交易**（best trades）　前言、第5章、第10章、第15章、交易准则
 
+**ETF**（ETF）　第1章、第4章、第8章、第10章
+
+**SPY**（SPY）　第1章、第8章、第10章、交易准则
+
+**QQQQ（纳斯达克100的 ETF）**（QQQQ）　第10章
+
 **合约**（contract）　前言、第1章、第10章、第11章、第13章、第15章、交易准则
 
 **点**（point）　前言、第1章、第2章、第3章、第4章、第5章、第6章、第7章、第8章、第9章、第10章、第11章、第12章、第13章、第14章、第15章、交易准则、术语表
 
 **斐波那契**（Fibonacci）　第5章、第7章
+
+**趋势性交易区间日**（trending trading range day）　第3章
+
+**强势特征**（signs of strength）　第3章、第8章、第9章
+
+**两段式行情**（two legs）　第1章、第2章、第3章、第4章、第5章、第7章、第8章、第9章、第10章、第11章、第12章、第13章、第14章、第15章
+
+**趋势日**（trend day）　第1章、第2章、第3章、第4章、第5章、第9章、第10章、第11章、第15章
+
+**金额止损**（money stop）　第10章
+
+**影线**（tail）　第1章、第3章、第4章、第5章、第6章、第8章、第9章、第11章、术语表
